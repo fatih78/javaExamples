@@ -1,15 +1,13 @@
 package ObjectOrientedProgramming;
 
-import org.junit.Test;
-
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
         Pen p = new Pen();
-        System.out.println(p.color);
-        System.out.println(p.point);
-        System.out.println(p.type);
+        System.out.println(p.getColor());
+        System.out.println(p.getPoint());
+        System.out.println(p.getType());
 
         System.out.println(p.clicked); // returns false
         p.click(); // virtual click

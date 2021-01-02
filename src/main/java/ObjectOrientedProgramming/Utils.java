@@ -8,7 +8,7 @@ public class Utils {
 //    method to load properties
     public boolean load(){
         Properties prop = new Properties();
-        try(InputStream fis = new FileInputStream("myProp.properties")) {
+        try(InputStream fis = new FileInputStream("src/main/resources/myProp.properties")) {
             prop.load(fis);
         }
         catch(Exception e) {

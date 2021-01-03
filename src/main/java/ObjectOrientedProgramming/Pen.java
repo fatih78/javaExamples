@@ -1,15 +1,12 @@
 package ObjectOrientedProgramming;
 
-import java.io.FileInputStream;
-import java.io.InputStream;
-import java.util.Properties;
 
 public class Pen extends Utils{
 
-    private final String type = "gel";
-    private final String color = "blue";
-    private final int point = 10;
-    public boolean clicked = load();
+    private final String type = loadStringType();
+    private final String color = loadStringColor();
+    private final int point = loadInt();
+    public boolean clicked = loadBoolean();
 
 // Getters
     public String getType() {

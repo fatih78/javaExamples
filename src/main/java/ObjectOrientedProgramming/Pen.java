@@ -6,7 +6,8 @@ public class Pen extends Utils{
     private final String type = loadStringType();
     private final String color = loadStringColor();
     private final int point = loadInt();
-    public boolean clicked = loadBoolean();
+    public boolean clicked = loadBooleanA();
+    public boolean unclicked = loadBooleanB();
 
 // Getters
     public String getType() {
@@ -34,12 +35,12 @@ public class Pen extends Utils{
     }
 
 //    methods
-    public  void click(){
-        clicked = true;
+    public  boolean click(){
+        return clicked;
     }
 
-    public void unclick(){
-        clicked = false;
+    public boolean unclick(){
+         return unclicked;
     }
 
 //    protected static int a;

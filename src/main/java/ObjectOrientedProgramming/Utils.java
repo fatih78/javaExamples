@@ -14,10 +14,21 @@ public class Utils {
     Properties prop = new Properties();
 
     //    method to load properties
-    public boolean loadBoolean(){
+    public boolean loadBooleanA(){
         try(InputStream fis = new FileInputStream("src/main/resources/myProp.properties")) {
             prop.load(fis);
             clickedfinal = Boolean.parseBoolean(prop.getProperty("clicked"));
+        }
+        catch(Exception e) {
+            e.printStackTrace();
+        }
+        return clickedfinal;
+    }
+
+    public boolean loadBooleanB(){
+        try(InputStream fis = new FileInputStream("src/main/resources/myProp.properties")) {
+            prop.load(fis);
+            clickedfinal = Boolean.parseBoolean(prop.getProperty("unclicked"));
         }
         catch(Exception e) {
             e.printStackTrace();

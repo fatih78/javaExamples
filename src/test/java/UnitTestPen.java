@@ -4,19 +4,22 @@ import org.junit.Test;
 
 public class UnitTestPen {
     Pen p = new Pen();
+    private final boolean a = p.clicked;
+    private final boolean b = p.unclicked;
 
     @Test
     public void testPenClick() {
         p.click();
-        Assert.assertTrue(p.clicked = true);
+        Assert.assertEquals(a, true);
+        System.out.println(a);
 
     }
 
     @Test
     public void testPenUnClick() {
         p.unclick();
-        Assert.assertTrue(p.clicked = true);
-
+        Assert.assertEquals(b, false);
+        System.out.println(b);
     }
 
     @Test

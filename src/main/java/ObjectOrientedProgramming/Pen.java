@@ -3,11 +3,11 @@ package ObjectOrientedProgramming;
 
 public class Pen extends Utils{
 
-    private final String type = loadStringType();
-    private final String color = loadStringColor();
+    private final String type = loadString().get(6);
+    private final String color = loadString().get(5);
     private final int point = loadInt();
-    public boolean clicked = loadBooleanA();
-    public boolean unclicked = loadBooleanB();
+    public Boolean clicked = loadBooleanA().get(0);
+    public Boolean unclicked = loadBooleanA().get(1);
 
 // Getters
     public String getType() {
@@ -35,11 +35,11 @@ public class Pen extends Utils{
     }
 
 //    methods
-    public  boolean click(){
+    public Boolean click(){
         return clicked;
     }
 
-    public boolean unclick(){
+    public Boolean unclick(){
          return unclicked;
     }
 

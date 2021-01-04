@@ -42,7 +42,7 @@ public class Utils {
     }
 
     public List<String> loadString() {
-        List<String> strings = new ArrayList<String>(Arrays.asList(new String[5]));
+        List<String> strings = new ArrayList<String>(Arrays.asList(new String[4]));
         try (InputStream fis = new FileInputStream("src/main/resources/myProp.properties")) {
             prop.load(fis);
             colorfinal = String.valueOf(strings.add(prop.getProperty("color")));

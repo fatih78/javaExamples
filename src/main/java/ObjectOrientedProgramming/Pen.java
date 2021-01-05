@@ -4,7 +4,7 @@ package ObjectOrientedProgramming;
 public class Pen extends Utils{
 
     private final String type = loadString().get(5);
-    private final String color = loadString().get(4);
+    private final String color = colorfinal;
     private final int point = loadInt();
     public Boolean clicked = loadBooleanA().get(0);
     public Boolean unclicked = loadBooleanA().get(1);

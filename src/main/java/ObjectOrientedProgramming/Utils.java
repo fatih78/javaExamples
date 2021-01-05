@@ -1,6 +1,7 @@
 package ObjectOrientedProgramming;
 
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -15,7 +16,16 @@ public class Utils {
     static String typefinal;
 
 
-    Properties prop = new Properties();
+    static Properties prop = new Properties();
+
+    public static void load(){
+        try {
+            prop.load(String.class.getClassLoader().getResourceAsStream("src/main/resources/myProp.properties"));
+            colorfinal = prop.getProperty("color");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
     //    method to load boolean values from properties file
     public List<Boolean> loadBooleanA() {

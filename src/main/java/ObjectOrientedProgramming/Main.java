@@ -1,9 +1,10 @@
 package ObjectOrientedProgramming;
 
+import java.io.IOException;
 import java.util.Arrays;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Pen p = new Pen();
         System.out.println(p.getColor());
         System.out.println(p.getPoint());

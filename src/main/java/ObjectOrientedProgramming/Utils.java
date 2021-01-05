@@ -1,66 +1,33 @@
 package ObjectOrientedProgramming;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import java.util.Properties;
 
 public class Utils {
-    static boolean clickedfinal1;
-    static boolean clickedfinal2;
-    static int pointfinal;
-    static String colorfinal;
-    static String typefinal;
 
-
-    static Properties prop = new Properties();
-
-    public static void load(){
+    public static Properties readPropertiesFile(String fileName) throws IOException {
+        FileInputStream fis = null;
+        Properties prop = null;
         try {
-            prop.load(String.class.getClassLoader().getResourceAsStream("src/main/resources/myProp.properties"));
-            colorfinal = prop.getProperty("color");
+            fis = new FileInputStream(fileName);
+            // create Properties class object
+            prop = new Properties();
+            // load properties file into it
+            prop.load(fis);
+
+        } catch (FileNotFoundException e) {
+
+            e.printStackTrace();
         } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
 
-    //    method to load boolean values from properties file
-    public List<Boolean> loadBooleanA() {
-        List<Boolean> booleans = new ArrayList<Boolean>(Arrays.asList(new Boolean[0]));
-
-        try (InputStream fis = new FileInputStream("src/main/resources/myProp.properties")) {
-            prop.load(fis);
-            Utils.clickedfinal1 = booleans.add(Boolean.parseBoolean(prop.getProperty("clicked")));
-            Utils.clickedfinal2 = booleans.add(Boolean.parseBoolean(prop.getProperty("unclicked")));
-        } catch (Exception e) {
             e.printStackTrace();
+        } finally {
+            fis.close();
         }
-        return booleans;
-    }
 
-    public int loadInt() {
-        try (InputStream fis = new FileInputStream("src/main/resources/myProp.properties")) {
-            prop.load(fis);
-            pointfinal = Integer.parseInt((prop.getProperty("point")));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return pointfinal;
-    }
-
-    public List<String> loadString() {
-        List<String> strings = new ArrayList<String>(Arrays.asList(new String[4]));
-        try (InputStream fis = new FileInputStream("src/main/resources/myProp.properties")) {
-            prop.load(fis);
-            colorfinal = String.valueOf(strings.add(prop.getProperty("color")));
-            typefinal = String.valueOf(strings.add(prop.getProperty("type")));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return strings;
+        return prop;
     }
 
 }

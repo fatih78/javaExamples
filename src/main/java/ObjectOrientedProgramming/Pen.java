@@ -1,15 +1,23 @@
 package ObjectOrientedProgramming;
 
 
+import java.io.IOException;
+import java.util.Properties;
+
 public class Pen extends Utils{
 
-    private final String type = loadString().get(5);
-    private final String color = colorfinal;
-    private final int point = loadInt();
-    public Boolean clicked = loadBooleanA().get(0);
-    public Boolean unclicked = loadBooleanA().get(1);
+    Properties prop = readPropertiesFile("src/main/resources/myProp.properties");
 
-// Getters
+    private final String type = prop.getProperty("type");
+    private final String color = prop.getProperty("color");
+    private final int point = Integer.parseInt(prop.getProperty("point"));
+    public Boolean clicked = Boolean.valueOf(prop.getProperty("clicked"));
+    public Boolean unclicked = Boolean.valueOf(prop.getProperty("unclicked"));
+
+    public Pen() throws IOException {
+    }
+
+    // Getters
     public String getType() {
         return type;
     }

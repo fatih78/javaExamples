@@ -1,11 +1,17 @@
 import ObjectOrientedProgramming.Pen;
+import ObjectOrientedProgramming.Utils;
 import org.junit.Assert;
 import org.junit.Test;
+import java.io.IOException;
 
-public class UnitTestPen {
+public class UnitTestPen extends Utils {
+
     Pen p = new Pen();
     private final Boolean a = p.clicked;
     private final Boolean b = p.unclicked;
+
+    public UnitTestPen() throws IOException {
+    }
 
     @Test
     public void testPenClick() {

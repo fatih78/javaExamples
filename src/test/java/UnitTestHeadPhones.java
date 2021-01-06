@@ -56,4 +56,11 @@ public class UnitTestHeadPhones extends Utils {
         System.out.println(h.color);
         Assert.assertEquals(h.color, "Red/black");
     }
+
+    @Test
+    public void headPhoneSpecificationThree() {
+        h.controls();
+        System.out.println(h.controls);
+        Assert.assertEquals(h.controls, "power, volume, play/pause");
+    }
 }

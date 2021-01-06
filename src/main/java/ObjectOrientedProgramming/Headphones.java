@@ -6,10 +6,11 @@ import java.util.Properties;
 public class Headphones extends Utils{
     Properties prop = readPropertiesFile("src/main/resources/myProp.properties");
 
-    public String charge = "Micro usb";
-    public String [] controls = {"power", "volume", "play/pause"}; //ArrayList
-    public String color = "Red/black";
+//    public String [] controls = {"power", "volume", "play/pause"}; //ArrayList
 
+    public String controls = prop.getProperty("controls");
+    public String charge = prop.getProperty("charge");
+    public String color = prop.getProperty("colorheadphone");
     public Boolean powerOff = Boolean.valueOf(prop.getProperty("poweroff"));
     public Boolean powerOn = Boolean.valueOf(prop.getProperty("poweron"));
     public int volume = Integer.parseInt(prop.getProperty("volume"));
@@ -39,5 +40,9 @@ public class Headphones extends Utils{
 
     public String color(){
         return color;
+    }
+
+    public String controls(){
+        return controls;
     }
 }

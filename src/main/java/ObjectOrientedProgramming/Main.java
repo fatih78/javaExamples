@@ -20,19 +20,19 @@ public class Main {
         System.out.println(h.color);
         System.out.println(Arrays.toString(h.controls));
 
-        System.out.println(h.power); // returns false
+        System.out.println(h.powerOff); // returns false
         h.powerOn(); // virtual powerOn
-        System.out.println(h.power); // returns true
+        System.out.println(h.powerOn); // returns true
         h.powerOff(); // virtual powerOff
-        System.out.println(h.power); //returns powerOff after click on powerOff
+        System.out.println(h.powerOff); //returns powerOff after click on powerOff
 
 //        static int volume = 0;
 //        volume++; && volume--;
-        System.out.println(Headphones.volume); // returns false
+        System.out.println(h.volumeDown()); // returns false
         h.volumeUp(); // virtual volumeUp
-        System.out.println(Headphones.volume); // returns 1 after virtual click on volumeUp
+        System.out.println(h.volumeUp()); // returns 1 after virtual click on volumeUp
         h.volumeUp(); // virtual volumeUp
-        System.out.println(Headphones.volume); // returns 2 after virtual click on volumeUp
+        System.out.println(h.volumeUp()); // returns 2 after virtual click on volumeUp
 
     }
 

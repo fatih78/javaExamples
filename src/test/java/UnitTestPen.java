@@ -2,6 +2,7 @@ import ObjectOrientedProgramming.Pen;
 import ObjectOrientedProgramming.Utils;
 import org.junit.Assert;
 import org.junit.Test;
+
 import java.io.IOException;
 
 public class UnitTestPen extends Utils {
@@ -24,25 +25,26 @@ public class UnitTestPen extends Utils {
     @Test
     public void testPenUnClick() {
         p.unclick();
-        Assert.assertEquals(b,  Boolean.FALSE);
+        Assert.assertEquals(b, Boolean.FALSE);
         System.out.println(b);
     }
 
     @Test
     public void testGetColorPen() {
         Assert.assertEquals("blue", p.color());
+        System.out.println(p.color());
 
     }
 
     @Test
     public void testGetTypePen() {
         Assert.assertEquals("gel", p.type());
-
+        System.out.println(p.type());
     }
 
     @Test
     public void testGetPointPen() {
         Assert.assertEquals(10, p.point());
-
+        System.out.println(p.point());
     }
 }

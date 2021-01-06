@@ -1,27 +1,43 @@
 package ObjectOrientedProgramming;
 
-public class Headphones {
+import java.io.IOException;
+import java.util.Properties;
 
-    String charge = "Micro usb";
-    String [] controls = {"power", "volume", "play/pause"}; //ArrayList
-    String color = "Red/black";
+public class Headphones extends Utils{
+    Properties prop = readPropertiesFile("src/main/resources/myProp.properties");
 
-    boolean power = false;
-    static int volume = 0;
+    public String charge = "Micro usb";
+    public String [] controls = {"power", "volume", "play/pause"}; //ArrayList
+    public String color = "Red/black";
 
-    public void powerOn(){
-        power = true;
+    public Boolean powerOff = Boolean.valueOf(prop.getProperty("poweroff"));
+    public Boolean powerOn = Boolean.valueOf(prop.getProperty("poweron"));
+    public int volume = Integer.parseInt(prop.getProperty("volume"));
+
+    public Headphones() throws IOException {
     }
 
-    public void powerOff(){
-        power = false;
+    public Boolean powerOn(){
+        return powerOn;
     }
 
-    public  void volumeUp(){
-        volume++;
+    public Boolean powerOff(){
+        return powerOff;
     }
 
-    public static void volumeDown(){
-        volume--;
+    public int volumeUp(){
+        return volume++;
+    }
+
+    public int volumeDown(){
+        return volume--;
+    }
+
+    public String charge(){
+        return charge;
+    }
+
+    public String color(){
+        return color;
     }
 }

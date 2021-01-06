@@ -4,7 +4,7 @@ package ObjectOrientedProgramming;
 import java.io.IOException;
 import java.util.Properties;
 
-public class Pen extends Utils{
+public class Pen extends Utils {
 
     Properties prop = readPropertiesFile("src/main/resources/myProp.properties");
 
@@ -30,25 +30,25 @@ public class Pen extends Utils{
         return point;
     }
 
-    public String type(){
+    public String type() {
         return getType();
     }
 
-    public String color(){
+    public String color() {
         return getColor();
     }
 
-    public int point(){
+    public int point() {
         return getPoint();
     }
 
-//    methods
-    public Boolean click(){
+    //    methods
+    public Boolean click() {
         return clicked;
     }
 
-    public Boolean unclick(){
-         return unclicked;
+    public Boolean unclick() {
+        return unclicked;
     }
 
 //    protected static int a;

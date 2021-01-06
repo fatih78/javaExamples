@@ -1,5 +1,5 @@
 import ObjectOrientedProgramming.Headphones;
-import ObjectOrientedProgramming.Utils;
+import ObjectOrientedProgramming.Utils.Utils;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package ObjectOrientedProgramming;
+package ObjectOrientedProgramming.Utils;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

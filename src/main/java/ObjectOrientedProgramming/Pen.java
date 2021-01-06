@@ -1,6 +1,8 @@
 package ObjectOrientedProgramming;
 
 
+import ObjectOrientedProgramming.Utils.Utils;
+
 import java.io.IOException;
 import java.util.Properties;
 
@@ -18,15 +20,15 @@ public class Pen extends Utils {
     }
 
     // Getters
-    public String getType() {
+    private String getType() {
         return type;
     }
 
-    public String getColor() {
+    private String getColor() {
         return color;
     }
 
-    public int getPoint() {
+    private int getPoint() {
         return point;
     }
 

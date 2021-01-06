@@ -1,9 +1,11 @@
 package ObjectOrientedProgramming;
 
+import ObjectOrientedProgramming.Utils.Utils;
+
 import java.io.IOException;
 import java.util.Properties;
 
-public class Headphones extends Utils{
+public class Headphones extends Utils {
     Properties prop = readPropertiesFile("src/main/resources/myProp.properties");
 
 //    public String [] controls = {"power", "volume", "play/pause"}; //ArrayList

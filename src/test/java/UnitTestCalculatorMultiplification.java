@@ -4,10 +4,10 @@ import org.junit.Test;
 
 import java.io.IOException;
 
-public class UnitTestCalculator{
+public class UnitTestCalculatorMultiplification {
     CalculatorController c = new CalculatorController();
 
-    public UnitTestCalculator() throws IOException {
+    public UnitTestCalculatorMultiplification() throws IOException {
     }
 
     @Test

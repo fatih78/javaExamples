@@ -1,40 +1,41 @@
 import ObjectOrientedProgramming.CalculatorController;
+import ObjectOrientedProgramming.Utils.CalculatorSumUtil;
 import org.junit.Assert;
 import org.junit.Test;
 
 import java.io.IOException;
 
-public class UnitTestCalculatorSum {
-    CalculatorController c = new CalculatorController();
+public class UnitTestCalculatorSum extends CalculatorSumUtil {
+    CalculatorController s = new CalculatorController();
 
     public UnitTestCalculatorSum() throws IOException {
     }
 
     @Test
-    public void calculatorTest1(){
-        c.sumTable( 1);
-        System.out.println(c.result);
-        Assert.assertEquals(c.result, 2);
+    public void calculatorTest1() {
+        s.CalculatorSum(1);
+        System.out.println(result);
+        Assert.assertEquals(result, 2);
     }
 
     @Test
-    public void calculatorTest2(){
-        c.sumTable( 2);
-        System.out.println(c.result);
-        Assert.assertEquals(c.result, 4);
+    public void calculatorTest2() {
+        s.CalculatorSum(2);
+        System.out.println(result);
+        Assert.assertEquals(result, 4);
     }
 
     @Test
-    public void calculatorTest3(){
-        c.sumTable( 3);
-        System.out.println(c.result);
-        Assert.assertEquals(c.result, 6);
+    public void calculatorTest3() {
+        s.CalculatorSum(3);
+        System.out.println(result);
+        Assert.assertEquals(result, 6);
     }
 
     @Test
-    public void calculatorTest4(){
-        c.sumTable( 5);
-        System.out.println(c.result);
-        Assert.assertEquals(c.result, 8);
+    public void calculatorTest4() {
+        s.CalculatorSum(5);
+        System.out.println(result);
+        Assert.assertEquals(result, 8);
     }
 }

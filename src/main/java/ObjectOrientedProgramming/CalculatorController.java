@@ -1,15 +1,18 @@
 package ObjectOrientedProgramming;
 
-import ObjectOrientedProgramming.Utils.CalculatorUtil;
+import ObjectOrientedProgramming.Utils.CalculatorSumUtil;
+import ObjectOrientedProgramming.Utils.CalculatorMultipleUtil;
 
-public class CalculatorController extends CalculatorUtil {
+public class CalculatorController {
+    CalculatorMultipleUtil c = new CalculatorMultipleUtil();
+    CalculatorSumUtil s = new CalculatorSumUtil();
 
-    public void CalculatorMultiplicationTable(int number, int table){
-        timeTable(number, table);
+    public void CalculatorMultiplicationTable(int number, int table) {
+        c.timeTable(number, table);
     }
 
-    public void CalculatorSum(int number){
-        sumTable(number);
+    public void CalculatorSum(int number) {
+        s.sumTable(number);
     }
 }
 

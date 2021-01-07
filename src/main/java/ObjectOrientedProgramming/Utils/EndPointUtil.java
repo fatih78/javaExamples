@@ -13,8 +13,7 @@ import static org.hamcrest.Matchers.equalTo;
 public class EndPointUtil {
 
 
-    public static void doGetRequest(String endpoint) {
-//        RestAssured.defaultParser = Parser.JSON;
+    public static void doGetRequest(String endpoint, String JsonFile) {
         given().
                 when().
                 get(endpoint).
@@ -24,7 +23,7 @@ public class EndPointUtil {
                 contentType(ContentType.JSON).
                 assertThat().
                 statusCode(200).
-                body(matchesJsonSchemaInClasspath("result.json"));
+                body(matchesJsonSchemaInClasspath(JsonFile));
 
     }
 }

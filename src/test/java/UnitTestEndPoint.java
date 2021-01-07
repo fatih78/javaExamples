@@ -10,6 +10,6 @@ import static ObjectOrientedProgramming.Utils.EndPointUtil.doGetRequest;
 public class UnitTestEndPoint extends EndPointUtil {
     @Test
     public void testGetEndPoint() {
-        doGetRequest("http://ergast.com/api/f1/2017/circuits.json");
+        doGetRequest("http://ergast.com/api/f1/2017/circuits.json", "result.json");
     }
 }

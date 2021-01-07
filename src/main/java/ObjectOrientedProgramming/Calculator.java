@@ -2,41 +2,80 @@ package ObjectOrientedProgramming;
 
 import ObjectOrientedProgramming.Utils.Utils;
 
-import java.io.IOException;
-import java.util.Properties;
-
 public class Calculator extends Utils {
-    Properties prop = readPropertiesFile("src/main/resources/myProp.properties");
     public int result;
-    public int number1 = Integer.parseInt(prop.getProperty("number1"));
-    public int number2 = Integer.parseInt(prop.getProperty("number2"));
-    public int number3 = Integer.parseInt(prop.getProperty("number3"));
 
-    public Calculator() throws IOException {
-    }
-
-    public int timesTableNumber1() {
-        for (int i = 0; i <= 10; i++) {
-            result = number1 * i;
-            System.out.println(number1+" * "+i+" = "+result);
-        }
-        return result;
-    }
-
-    public int timesTableNumber2() {
-        for (int i = 0; i <= 10; i++) {
-            result = number2 * i;
-            System.out.println(number2+" * "+i+" = "+result);
-        }
-        return result;
-    }
-
-    public int timeTable3(){
+    public int timeTable(int number, int table){
         int i=0;
-        while(i<=10){
-            result = number3 * i;
-            System.out.println(number3+" * "+i+" = "+ result);
-            i++;
+        if ( table == 1){
+            while(i<=1){
+                result = number * i;
+                System.out.println(number+" * "+i+" = "+ result);
+                i++;
+            }
+        }
+        else if (table == 2){
+            while(i<=2){
+                result = number * i;
+                System.out.println(number+" * "+i+" = "+ result);
+                i++;
+            }
+        }
+        else if (table == 3){
+            while(i<=3){
+                result = number * i;
+                System.out.println(number+" * "+i+" = "+ result);
+                i++;
+            }
+        }
+        else if (table == 4){
+            while(i<=4){
+                result = number * i;
+                System.out.println(number+" * "+i+" = "+ result);
+                i++;
+            }
+        }
+        else if (table == 5){
+            while(i<=5){
+                result = number * i;
+                System.out.println(number+" * "+i+" = "+ result);
+                i++;
+            }
+        }
+        else if (table == 6){
+            while(i<=6){
+                result = number * i;
+                System.out.println(number+" * "+i+" = "+ result);
+                i++;
+            }
+        }
+        else if (table == 7){
+            while(i<=7){
+                result = number * i;
+                System.out.println(number+" * "+i+" = "+ result);
+                i++;
+            }
+        }
+        else if (table == 8){
+            while(i<=8){
+                result = number * i;
+                System.out.println(number+" * "+i+" = "+ result);
+                i++;
+            }
+        }
+        else if (table == 9){
+            while(i<=9){
+                result = number * i;
+                System.out.println(number+" * "+i+" = "+ result);
+                i++;
+            }
+        }
+        else if (table == 10){
+            while(i<=10){
+                result = number * i;
+                System.out.println(number+" * "+i+" = "+ result);
+                i++;
+            }
         }
         return result;
     }

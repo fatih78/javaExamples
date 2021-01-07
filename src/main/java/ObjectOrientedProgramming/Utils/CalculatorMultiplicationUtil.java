@@ -1,8 +1,6 @@
-package ObjectOrientedProgramming;
+package ObjectOrientedProgramming.Utils;
 
-import ObjectOrientedProgramming.Utils.Utils;
-
-public class Calculator extends Utils {
+public abstract class CalculatorMultiplicationUtil {
     public int result;
 
     public int timeTable(int number, int table){
@@ -80,4 +78,3 @@ public class Calculator extends Utils {
         return result;
     }
 }
-

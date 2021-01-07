@@ -34,8 +34,8 @@ public class UnitTestCalculatorSum extends CalculatorSumUtil {
 
     @Test
     public void calculatorTest4() {
-        s.CalculatorSum(5);
+        s.CalculatorSum(4);
         System.out.println(result);
-        Assert.assertEquals(result, 8);
+        Assert.assertEquals(result, 6);
     }
 }

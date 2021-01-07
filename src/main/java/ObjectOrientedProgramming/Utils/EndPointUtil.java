@@ -14,15 +14,17 @@ public class EndPointUtil {
 
 
     public static void doGetRequest(String endpoint) {
-        RestAssured.defaultParser = Parser.JSON;
-        given().headers("Content-Type", ContentType.JSON, "Accept", ContentType.JSON).
+//        RestAssured.defaultParser = Parser.JSON;
+        given().
                 when().
                 get(endpoint).
                 then().
+                log().ifStatusCodeIsEqualTo(200).
+                and().
+                contentType(ContentType.JSON).
                 assertThat().
                 statusCode(200).
-                body(matchesJsonSchemaInClasspath("result.json")).
-                body("season", contains("2017"));
+                body(matchesJsonSchemaInClasspath("result.json"));
 
     }
 }

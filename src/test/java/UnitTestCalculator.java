@@ -24,4 +24,11 @@ public class UnitTestCalculator extends Utils {
         System.out.println(c.result);
         Assert.assertEquals(c.result, 30);
     }
+
+    @Test
+    public void calculatorNumber3(){
+        c.timeTable3();
+        System.out.println(c.result);
+        Assert.assertEquals(c.result, 40);
+    }
 }

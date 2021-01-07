@@ -10,6 +10,7 @@ public class Calculator extends Utils {
     public int result;
     public int number1 = Integer.parseInt(prop.getProperty("number1"));
     public int number2 = Integer.parseInt(prop.getProperty("number2"));
+    public int number3 = Integer.parseInt(prop.getProperty("number3"));
 
     public Calculator() throws IOException {
     }
@@ -29,4 +30,15 @@ public class Calculator extends Utils {
         }
         return result;
     }
+
+    public int timeTable3(){
+        int i=0;
+        while(i<=10){
+            result = number3 * i;
+            System.out.println(number3+" * "+i+" = "+ result);
+            i++;
+        }
+        return result;
+    }
 }
+

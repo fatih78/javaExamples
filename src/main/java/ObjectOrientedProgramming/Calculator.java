@@ -18,7 +18,7 @@ public class Calculator extends Utils {
     public int timesTableNumber1() {
         for (int i = 0; i <= 10; i++) {
             result = number1 * i;
-            System.out.println(number1+" * "+i+" = "+number1*i);
+            System.out.println(number1+" * "+i+" = "+result);
         }
         return result;
     }
@@ -26,7 +26,7 @@ public class Calculator extends Utils {
     public int timesTableNumber2() {
         for (int i = 0; i <= 10; i++) {
             result = number2 * i;
-            System.out.println(number2+" * "+i+" = "+number2*i);
+            System.out.println(number2+" * "+i+" = "+result);
         }
         return result;
     }

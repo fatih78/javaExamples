@@ -15,6 +15,7 @@ public class EndPointUtil {
 
     public static void doGetRequest(String endpoint, String JsonFile) {
         given().
+                header("Accept", "application/json").
                 when().
                 get(endpoint).
                 then().

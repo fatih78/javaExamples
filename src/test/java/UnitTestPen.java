@@ -8,8 +8,8 @@ import java.io.IOException;
 public class UnitTestPen extends Utils {
 
     Pen p = new Pen();
-    private final Boolean a = p.clicked;
-    private final Boolean b = p.unclicked;
+    private final Boolean a = p.click();
+    private final Boolean b = p.unclick();
 
     public UnitTestPen() throws IOException {
     }

@@ -6,8 +6,6 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class Headphones extends Utils {
-    Properties prop = readPropertiesFile("src/main/resources/myProp.properties");
-
 
     private final String controls = prop.getProperty("controls");
     private final String charge = prop.getProperty("charge");

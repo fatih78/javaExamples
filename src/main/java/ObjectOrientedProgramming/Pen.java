@@ -8,8 +8,6 @@ import java.util.Properties;
 
 public class Pen extends Utils {
 
-    Properties prop = readPropertiesFile("src/main/resources/myProp.properties");
-
     private final String type = prop.getProperty("type");
     private final String color = prop.getProperty("color");
     private final int point = Integer.parseInt(prop.getProperty("point"));
@@ -45,9 +43,13 @@ public class Pen extends Utils {
     }
 
     //    methods
-    private Boolean getClicked() { return clicked; }
+    private Boolean getClicked() {
+        return clicked;
+    }
 
-    private Boolean getUnClicked() { return unclicked; }
+    private Boolean getUnClicked() {
+        return unclicked;
+    }
 
     public Boolean click() {
         return getClicked();

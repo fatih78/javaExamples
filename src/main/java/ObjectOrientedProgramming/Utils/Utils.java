@@ -7,6 +7,16 @@ import java.util.Properties;
 
 public class Utils {
 
+    public static Properties prop;
+
+    static {
+        try {
+            prop = readPropertiesFile("src/main/resources/myProp.properties");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    };
+
     public static Properties readPropertiesFile(String fileName) throws IOException {
         FileInputStream fis = null;
         Properties prop = null;

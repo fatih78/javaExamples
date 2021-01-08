@@ -13,70 +13,70 @@ public class UnitTestCalculatorMultiplification extends CalculatorMultipleUtil {
 
     @Test
     public void calculatorTest1() {
-        x.CalculatorMultiplicationTable(2, 1);
+        x.CalculatorMultiplicationTable(2, 1, 1);
         System.out.println(result);
         Assert.assertEquals(result, 2);
     }
 
     @Test
     public void calculatorTest2() {
-        x.CalculatorMultiplicationTable(2, 2);
+        x.CalculatorMultiplicationTable(2, 2, 2);
         System.out.println(result);
         Assert.assertEquals(result, 4);
     }
 
     @Test
     public void calculatorTest3() {
-        x.CalculatorMultiplicationTable(2, 3);
+        x.CalculatorMultiplicationTable(2, 3, 3);
         System.out.println(result);
         Assert.assertEquals(result, 6);
     }
 
     @Test
     public void calculatorTest4() {
-        x.CalculatorMultiplicationTable(2, 4);
+        x.CalculatorMultiplicationTable(2, 4, 4);
         System.out.println(result);
         Assert.assertEquals(result, 8);
     }
 
     @Test
     public void calculatorTest5() {
-        x.CalculatorMultiplicationTable(2, 5);
+        x.CalculatorMultiplicationTable(2, 5, 5);
         System.out.println(result);
         Assert.assertEquals(result, 10);
     }
 
     @Test
     public void calculatorTest6() {
-        x.CalculatorMultiplicationTable(2, 6);
+        x.CalculatorMultiplicationTable(2, 6, 6);
         System.out.println(result);
         Assert.assertEquals(result, 12);
     }
 
     @Test
     public void calculatorTest7() {
-        x.CalculatorMultiplicationTable(2, 7);
+        x.CalculatorMultiplicationTable(2, 7, 7);
         System.out.println(result);
         Assert.assertEquals(result, 14);
     }
 
     @Test
     public void calculatorTest8() {
-        x.CalculatorMultiplicationTable(2, 8);
+        x.CalculatorMultiplicationTable(2, 8, 8);
         System.out.println(result);
         Assert.assertEquals(result, 16);
     }
 
     @Test
     public void calculatorTest9() {
-        x.CalculatorMultiplicationTable(2, 9);
+        x.CalculatorMultiplicationTable(2, 9, 9);
         System.out.println(result);
         Assert.assertEquals(result, 18);
     }
 
     @Test
     public void calculatorTest10() {
-        x.CalculatorMultiplicationTable(2, 10);
+        x.CalculatorMultiplicationTable(2, 10, 10);
         System.out.println(result);
         Assert.assertEquals(result, 20);
     }

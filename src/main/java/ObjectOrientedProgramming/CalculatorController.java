@@ -7,12 +7,12 @@ public class CalculatorController {
     CalculatorMultipleUtil c = new CalculatorMultipleUtil();
     CalculatorSumUtil s = new CalculatorSumUtil();
 
-    public void CalculatorMultiplicationTable(int number, int table) {
-        c.timeTable(number, table);
+    public void CalculatorMultiplicationTable(int number, int table, int i) {
+        c.timeTable(number, table, i);
     }
 
-    public void CalculatorSum(int number) {
-        s.sumTable(number);
+    public void CalculatorSum(int number, int i) {
+        s.sumTable(number, i);
     }
 }
 

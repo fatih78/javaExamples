@@ -2,6 +2,7 @@ package ObjectOrientedProgramming.Utils;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
+import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.parsing.Parser;
 
 import static io.restassured.RestAssured.given;
@@ -24,7 +25,7 @@ public class EndPointUtil {
                 contentType(ContentType.JSON).
                 assertThat().
                 statusCode(200).
-                body(matchesJsonSchemaInClasspath(JsonFile));
+                body(JsonSchemaValidator.matchesJsonSchemaInClasspath(JsonFile));
 
     }
 }

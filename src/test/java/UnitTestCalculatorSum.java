@@ -36,6 +36,6 @@ public class UnitTestCalculatorSum extends CalculatorSumUtil {
     public void calculatorTest4() {
         s.CalculatorSum(4, 4);
         System.out.println(result);
-        Assert.assertEquals(result, 6);
+        Assert.assertEquals(result, 8);
     }
 }

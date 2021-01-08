@@ -6,7 +6,7 @@ import io.restassured.module.jsv.JsonSchemaValidator;
 import static io.restassured.RestAssured.given;
 
 
-public class EndPointUtil {
+public class EndPointUtil extends Utils{
 
 
     public static void doGetRequest(String endpoint, String JsonFile) {

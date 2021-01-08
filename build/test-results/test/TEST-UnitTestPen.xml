@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UnitTestPen" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-01-08T08:16:35" hostname="MacBook-Air-van-Fatih-2.local" time="0.014">
+<testsuite name="UnitTestPen" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-01-08T08:49:09" hostname="MacBook-Air-van-Fatih-2.local" time="0.002">
   <properties/>
-  <testcase name="testGetTypePen" classname="UnitTestPen" time="0.009"/>
-  <testcase name="testPenUnClick" classname="UnitTestPen" time="0.0"/>
-  <testcase name="testGetColorPen" classname="UnitTestPen" time="0.001"/>
-  <testcase name="testPenClick" classname="UnitTestPen" time="0.001"/>
+  <testcase name="testGetTypePen" classname="UnitTestPen" time="0.0"/>
+  <testcase name="testPenUnClick" classname="UnitTestPen" time="0.001"/>
+  <testcase name="testGetColorPen" classname="UnitTestPen" time="0.0"/>
+  <testcase name="testPenClick" classname="UnitTestPen" time="0.0"/>
   <testcase name="testGetPointPen" classname="UnitTestPen" time="0.0"/>
   <system-out><![CDATA[gel
 false

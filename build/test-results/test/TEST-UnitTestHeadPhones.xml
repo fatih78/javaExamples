@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UnitTestHeadPhones" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-01-08T08:49:09" hostname="MacBook-Air-van-Fatih-2.local" time="0.003">
+<testsuite name="UnitTestHeadPhones" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-01-08T20:17:10" hostname="Air-van-Fatih.home" time="0.006">
   <properties/>
-  <testcase name="headPhoneSpecificationThree" classname="UnitTestHeadPhones" time="0.0"/>
+  <testcase name="headPhoneSpecificationThree" classname="UnitTestHeadPhones" time="0.002"/>
   <testcase name="headPhonePowerOff" classname="UnitTestHeadPhones" time="0.0"/>
   <testcase name="headPhoneSpecificationOne" classname="UnitTestHeadPhones" time="0.0"/>
-  <testcase name="headPhoneSpecificationTwo" classname="UnitTestHeadPhones" time="0.0"/>
+  <testcase name="headPhoneSpecificationTwo" classname="UnitTestHeadPhones" time="0.001"/>
   <testcase name="headPhoneVolumeDown" classname="UnitTestHeadPhones" time="0.0"/>
   <testcase name="headPhoneVolumeUp" classname="UnitTestHeadPhones" time="0.0"/>
-  <testcase name="headPrhonePowerOn" classname="UnitTestHeadPhones" time="0.001"/>
+  <testcase name="headPrhonePowerOn" classname="UnitTestHeadPhones" time="0.0"/>
   <system-out><![CDATA[power, volume, play/pause
 false
 Micro usb
 Red/black
-0
+1
 2
 true
 ]]></system-out>

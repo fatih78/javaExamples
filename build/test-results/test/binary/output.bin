@@ -1,568 +1,569 @@
-
-1 + 1 = 2
-2
-
-2 + 2 = 4
-4
-
-3 + 3 = 6
-6
-
-4 + 4 = 8
-8
-gel
-false
-	blue
-
-true
-10
-
+gel
+false
+blue
+true
+10
+
 2 * 1 = 2
-2
-
+2
+	
 2 * 2 = 4
-4
-
+	4
+
+
 2 * 3 = 6
-6
-
+
+6
+
 2 * 4 = 8
-8
-2 * 5 = 10
-10
-2 * 6 = 12
-12
-2 * 7 = 14
-14
-2 * 8 = 16
-16
-2 * 9 = 18
-18
-2 * 10 = 20
-20
-power, volume, play/pause
-false
-
+8
+2 * 5 = 10
+10
+2 * 6 = 12
+12
+2 * 7 = 14
+14
+2 * 8 = 16
+16
+2 * 9 = 18
+18
+2 * 10 = 20
+20
+power, volume, play/pause
+false
+
 Micro usb
-
+
 Red/black
-0
-2
-true
- HTTP/1.1 200 OK
- $Date: Fri, 08 Jan 2021 08:49:11 GMT
- =Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16
- X-Powered-By: PHP/5.4.16
- Access-Control-Allow-Origin: *
- Content-Length: 4551
- Keep-Alive: timeout=5, max=100
- Connection: Keep-Alive
- .Content-Type: application/json; charset=utf-8
- 
- {
-     "MRData": {
- .        "xmlns": "http://ergast.com/mrd/1.4",
-         "series": "f1",
- >        "url": "http://ergast.com/api/f1/2017/circuits.json",
-         "limit": "30",
-         "offset": "0",
-         "total": "20",
-         "CircuitTable": {
-             "season": "2017",
-             "Circuits": [
-                 {
- 0                    "circuitId": "albert_park",
- X                    "url": "http://en.wikipedia.org/wiki/Melbourne_Grand_Prix_Circuit",
- E                    "circuitName": "Albert Park Grand Prix Circuit",
- "                    "Location": {
- +                        "lat": "-37.8497",
- +                        "long": "144.968",
- 1                        "locality": "Melbourne",
- /                        "country": "Australia"
-                     }
-                 },
-                 {
- -                    "circuitId": "americas",
- S                    "url": "http://en.wikipedia.org/wiki/Circuit_of_the_Americas",
- >                    "circuitName": "Circuit of the Americas",
- "                    "Location": {
- *                        "lat": "30.1328",
- ,                        "long": "-97.6411",
- .                        "locality": "Austin",
- )                        "country": "USA"
-                     }
-                 },
-                 {
- ,                    "circuitId": "bahrain",
- Y                    "url": "http://en.wikipedia.org/wiki/Bahrain_International_Circuit",
- D                    "circuitName": "Bahrain International Circuit",
- "                    "Location": {
- *                        "lat": "26.0325",
- +                        "long": "50.5106",
- .                        "locality": "Sakhir",
- -                        "country": "Bahrain"
-                     }
-                 },
-                 {
- (                    "circuitId": "BAK",
- M                    "url": "http://en.wikipedia.org/wiki/Baku_City_Circuit",
- 8                    "circuitName": "Baku City Circuit",
- "                    "Location": {
- *                        "lat": "40.3725",
- +                        "long": "49.8533",
- ,                        "locality": "Baku",
- 0                        "country": "Azerbaijan"
-                     }
-                 },
-                 {
- .                    "circuitId": "catalunya",
- Z                    "url": "http://en.wikipedia.org/wiki/Circuit_de_Barcelona-Catalunya",
- E                    "circuitName": "Circuit de Barcelona-Catalunya",
- "                    "Location": {
- (                        "lat": "41.57",
- +                        "long": "2.26111",
- 1                        "locality": "Montmeló",
- +                        "country": "Spain"
-                     }
-                 },
-                 {
- 0                    "circuitId": "hungaroring",
- G                    "url": "http://en.wikipedia.org/wiki/Hungaroring",
- 2                    "circuitName": "Hungaroring",
- "                    "Location": {
- *                        "lat": "47.5789",
- +                        "long": "19.2486",
- 0                        "locality": "Budapest",
- -                        "country": "Hungary"
-                     }
-                 },
-                 {
- /                    "circuitId": "interlagos",
- `                    "url": "http://en.wikipedia.org/wiki/Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace",
- C                    "circuitName": "Autódromo José Carlos Pace",
- "                    "Location": {
- +                        "lat": "-23.7036",
- ,                        "long": "-46.6997",
- 2                        "locality": "São Paulo",
- ,                        "country": "Brazil"
-                     }
-                 },
-                 {
- /                    "circuitId": "marina_bay",
- U                    "url": "http://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit",
- @                    "circuitName": "Marina Bay Street Circuit",
- "                    "Location": {
- )                        "lat": "1.2914",
- +                        "long": "103.864",
- 2                        "locality": "Marina Bay",
- /                        "country": "Singapore"
-                     }
-                 },
-                 {
- +                    "circuitId": "monaco",
- M                    "url": "http://en.wikipedia.org/wiki/Circuit_de_Monaco",
- 8                    "circuitName": "Circuit de Monaco",
- "                    "Location": {
- *                        "lat": "43.7347",
- +                        "long": "7.42056",
- 3                        "locality": "Monte-Carlo",
- ,                        "country": "Monaco"
-                     }
-                 },
-                 {
- *                    "circuitId": "monza",
- U                    "url": "http://en.wikipedia.org/wiki/Autodromo_Nazionale_Monza",
- C                    "circuitName": "Autodromo Nazionale di Monza",
- "                    "Location": {
- *                        "lat": "45.6156",
- +                        "long": "9.28111",
- -                        "locality": "Monza",
- +                        "country": "Italy"
-                     }
-                 },
-                 {
- 2                    "circuitId": "red_bull_ring",
- I                    "url": "http://en.wikipedia.org/wiki/Red_Bull_Ring",
- 4                    "circuitName": "Red Bull Ring",
- "                    "Location": {
- *                        "lat": "47.2197",
- +                        "long": "14.7647",
- 1                        "locality": "Spielburg",
- -                        "country": "Austria"
-                     }
-                 },
-                 {
- .                    "circuitId": "rodriguez",
- b                    "url": "http://en.wikipedia.org/wiki/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez",
- E                    "circuitName": "Autódromo Hermanos Rodríguez",
- "                    "Location": {
- *                        "lat": "19.4042",
- ,                        "long": "-99.0907",
- 3                        "locality": "Mexico City",
- ,                        "country": "Mexico"
-                     }
-                 },
-                 {
- +                    "circuitId": "sepang",
- X                    "url": "http://en.wikipedia.org/wiki/Sepang_International_Circuit",
- C                    "circuitName": "Sepang International Circuit",
- "                    "Location": {
- *                        "lat": "2.76083",
- +                        "long": "101.738",
- 4                        "locality": "Kuala Lumpur",
- .                        "country": "Malaysia"
-                     }
-                 },
-                 {
- -                    "circuitId": "shanghai",
- Z                    "url": "http://en.wikipedia.org/wiki/Shanghai_International_Circuit",
- E                    "circuitName": "Shanghai International Circuit",
- "                    "Location": {
- *                        "lat": "31.3389",
- *                        "long": "121.22",
- 0                        "locality": "Shanghai",
- +                        "country": "China"
-                     }
-                 },
-                 {
- 0                    "circuitId": "silverstone",
- O                    "url": "http://en.wikipedia.org/wiki/Silverstone_Circuit",
- :                    "circuitName": "Silverstone Circuit",
- "                    "Location": {
- *                        "lat": "52.0786",
- ,                        "long": "-1.01694",
- 3                        "locality": "Silverstone",
- (                        "country": "UK"
-                     }
-                 },
-                 {
- *                    "circuitId": "sochi",
- J                    "url": "http://en.wikipedia.org/wiki/Sochi_Autodrom",
- 5                    "circuitName": "Sochi Autodrom",
- "                    "Location": {
- *                        "lat": "43.4057",
- +                        "long": "39.9578",
- -                        "locality": "Sochi",
- ,                        "country": "Russia"
-                     }
-                 },
-                 {
- (                    "circuitId": "spa",
- X                    "url": "http://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps",
- C                    "circuitName": "Circuit de Spa-Francorchamps",
- "                    "Location": {
- *                        "lat": "50.4372",
- +                        "long": "5.97139",
- +                        "locality": "Spa",
- -                        "country": "Belgium"
-                     }
-                 },
-                 {
- +                    "circuitId": "suzuka",
- J                    "url": "http://en.wikipedia.org/wiki/Suzuka_Circuit",
- 5                    "circuitName": "Suzuka Circuit",
- "                    "Location": {
- *                        "lat": "34.8431",
- +                        "long": "136.541",
- .                        "locality": "Suzuka",
- +                        "country": "Japan"
-                     }
-                 },
-                 {
- /                    "circuitId": "villeneuve",
- U                    "url": "http://en.wikipedia.org/wiki/Circuit_Gilles_Villeneuve",
- @                    "circuitName": "Circuit Gilles Villeneuve",
- "                    "Location": {
- '                        "lat": "45.5",
- ,                        "long": "-73.5228",
- 0                        "locality": "Montreal",
- ,                        "country": "Canada"
-                     }
-                 },
-                 {
- /                    "circuitId": "yas_marina",
- N                    "url": "http://en.wikipedia.org/wiki/Yas_Marina_Circuit",
- 9                    "circuitName": "Yas Marina Circuit",
- "                    "Location": {
- *                        "lat": "24.4672",
- +                        "long": "54.6031",
- 1                        "locality": "Abu Dhabi",
- )                        "country": "UAE"
-                     }
-                 }
-             ]
- 
+1
+2
+true
+HTTP/1.1 200 OK
+$Date: Fri, 08 Jan 2021 20:17:13 GMT
+=Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16
+X-Powered-By: PHP/5.4.16
+Access-Control-Allow-Origin: *
+Content-Length: 4551
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+.Content-Type: application/json; charset=utf-8
+
+{
+    "MRData": {
+.        "xmlns": "http://ergast.com/mrd/1.4",
+        "series": "f1",
+>        "url": "http://ergast.com/api/f1/2017/circuits.json",
+        "limit": "30",
+        "offset": "0",
+        "total": "20",
+        "CircuitTable": {
+            "season": "2017",
+            "Circuits": [
+                {
+0                    "circuitId": "albert_park",
+X                    "url": "http://en.wikipedia.org/wiki/Melbourne_Grand_Prix_Circuit",
+E                    "circuitName": "Albert Park Grand Prix Circuit",
+"                    "Location": {
++                        "lat": "-37.8497",
++                        "long": "144.968",
+1                        "locality": "Melbourne",
+/                        "country": "Australia"
+                    }
+                },
+                {
+-                    "circuitId": "americas",
+S                    "url": "http://en.wikipedia.org/wiki/Circuit_of_the_Americas",
+>                    "circuitName": "Circuit of the Americas",
+"                    "Location": {
+*                        "lat": "30.1328",
+,                        "long": "-97.6411",
+.                        "locality": "Austin",
+)                        "country": "USA"
+                    }
+                },
+                {
+,                    "circuitId": "bahrain",
+Y                    "url": "http://en.wikipedia.org/wiki/Bahrain_International_Circuit",
+D                    "circuitName": "Bahrain International Circuit",
+"                    "Location": {
+*                        "lat": "26.0325",
++                        "long": "50.5106",
+.                        "locality": "Sakhir",
+-                        "country": "Bahrain"
+                    }
+                },
+                {
+(                    "circuitId": "BAK",
+M                    "url": "http://en.wikipedia.org/wiki/Baku_City_Circuit",
+8                    "circuitName": "Baku City Circuit",
+"                    "Location": {
+*                        "lat": "40.3725",
++                        "long": "49.8533",
+,                        "locality": "Baku",
+0                        "country": "Azerbaijan"
+                    }
+                },
+                {
+.                    "circuitId": "catalunya",
+Z                    "url": "http://en.wikipedia.org/wiki/Circuit_de_Barcelona-Catalunya",
+E                    "circuitName": "Circuit de Barcelona-Catalunya",
+"                    "Location": {
+(                        "lat": "41.57",
++                        "long": "2.26111",
+1                        "locality": "Montmeló",
++                        "country": "Spain"
+                    }
+                },
+                {
+0                    "circuitId": "hungaroring",
+G                    "url": "http://en.wikipedia.org/wiki/Hungaroring",
+2                    "circuitName": "Hungaroring",
+"                    "Location": {
+*                        "lat": "47.5789",
++                        "long": "19.2486",
+0                        "locality": "Budapest",
+-                        "country": "Hungary"
+                    }
+                },
+                {
+/                    "circuitId": "interlagos",
+`                    "url": "http://en.wikipedia.org/wiki/Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace",
+C                    "circuitName": "Autódromo José Carlos Pace",
+"                    "Location": {
++                        "lat": "-23.7036",
+,                        "long": "-46.6997",
+2                        "locality": "São Paulo",
+,                        "country": "Brazil"
+                    }
+                },
+                {
+/                    "circuitId": "marina_bay",
+U                    "url": "http://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit",
+@                    "circuitName": "Marina Bay Street Circuit",
+"                    "Location": {
+)                        "lat": "1.2914",
++                        "long": "103.864",
+2                        "locality": "Marina Bay",
+/                        "country": "Singapore"
+                    }
+                },
+                {
++                    "circuitId": "monaco",
+M                    "url": "http://en.wikipedia.org/wiki/Circuit_de_Monaco",
+8                    "circuitName": "Circuit de Monaco",
+"                    "Location": {
+*                        "lat": "43.7347",
++                        "long": "7.42056",
+3                        "locality": "Monte-Carlo",
+,                        "country": "Monaco"
+                    }
+                },
+                {
+*                    "circuitId": "monza",
+U                    "url": "http://en.wikipedia.org/wiki/Autodromo_Nazionale_Monza",
+C                    "circuitName": "Autodromo Nazionale di Monza",
+"                    "Location": {
+*                        "lat": "45.6156",
++                        "long": "9.28111",
+-                        "locality": "Monza",
++                        "country": "Italy"
+                    }
+                },
+                {
+2                    "circuitId": "red_bull_ring",
+I                    "url": "http://en.wikipedia.org/wiki/Red_Bull_Ring",
+4                    "circuitName": "Red Bull Ring",
+"                    "Location": {
+*                        "lat": "47.2197",
++                        "long": "14.7647",
+1                        "locality": "Spielburg",
+-                        "country": "Austria"
+                    }
+                },
+                {
+.                    "circuitId": "rodriguez",
+b                    "url": "http://en.wikipedia.org/wiki/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez",
+E                    "circuitName": "Autódromo Hermanos Rodríguez",
+"                    "Location": {
+*                        "lat": "19.4042",
+,                        "long": "-99.0907",
+3                        "locality": "Mexico City",
+,                        "country": "Mexico"
+                    }
+                },
+                {
++                    "circuitId": "sepang",
+X                    "url": "http://en.wikipedia.org/wiki/Sepang_International_Circuit",
+C                    "circuitName": "Sepang International Circuit",
+"                    "Location": {
+*                        "lat": "2.76083",
++                        "long": "101.738",
+4                        "locality": "Kuala Lumpur",
+.                        "country": "Malaysia"
+                    }
+                },
+                {
+-                    "circuitId": "shanghai",
+Z                    "url": "http://en.wikipedia.org/wiki/Shanghai_International_Circuit",
+E                    "circuitName": "Shanghai International Circuit",
+"                    "Location": {
+*                        "lat": "31.3389",
+*                        "long": "121.22",
+0                        "locality": "Shanghai",
++                        "country": "China"
+                    }
+                },
+                {
+0                    "circuitId": "silverstone",
+O                    "url": "http://en.wikipedia.org/wiki/Silverstone_Circuit",
+:                    "circuitName": "Silverstone Circuit",
+"                    "Location": {
+*                        "lat": "52.0786",
+,                        "long": "-1.01694",
+3                        "locality": "Silverstone",
+(                        "country": "UK"
+                    }
+                },
+                {
+*                    "circuitId": "sochi",
+J                    "url": "http://en.wikipedia.org/wiki/Sochi_Autodrom",
+5                    "circuitName": "Sochi Autodrom",
+"                    "Location": {
+*                        "lat": "43.4057",
++                        "long": "39.9578",
+-                        "locality": "Sochi",
+,                        "country": "Russia"
+                    }
+                },
+                {
+(                    "circuitId": "spa",
+X                    "url": "http://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps",
+C                    "circuitName": "Circuit de Spa-Francorchamps",
+"                    "Location": {
+*                        "lat": "50.4372",
++                        "long": "5.97139",
++                        "locality": "Spa",
+-                        "country": "Belgium"
+                    }
+                },
+                {
++                    "circuitId": "suzuka",
+J                    "url": "http://en.wikipedia.org/wiki/Suzuka_Circuit",
+5                    "circuitName": "Suzuka Circuit",
+"                    "Location": {
+*                        "lat": "34.8431",
++                        "long": "136.541",
+.                        "locality": "Suzuka",
++                        "country": "Japan"
+                    }
+                },
+                {
+/                    "circuitId": "villeneuve",
+U                    "url": "http://en.wikipedia.org/wiki/Circuit_Gilles_Villeneuve",
+@                    "circuitName": "Circuit Gilles Villeneuve",
+"                    "Location": {
+'                        "lat": "45.5",
+,                        "long": "-73.5228",
+0                        "locality": "Montreal",
+,                        "country": "Canada"
+                    }
+                },
+                {
+/                    "circuitId": "yas_marina",
+N                    "url": "http://en.wikipedia.org/wiki/Yas_Marina_Circuit",
+9                    "circuitName": "Yas Marina Circuit",
+"                    "Location": {
+*                        "lat": "24.4672",
++                        "long": "54.6031",
+1                        "locality": "Abu Dhabi",
+)                        "country": "UAE"
+                    }
+                }
+            ]
+
         }
-     }
- }
- !HTTP/1.1 200 OK
- !$Date: Fri, 08 Jan 2021 08:49:12 GMT
- !.Content-Type: application/json; charset=utf-8
- !Transfer-Encoding: chunked
- !Connection: keep-alive
- !�Set-Cookie: __cfduid=d38804daade5c3e6ae947fdcf5847efa91610095752; expires=Sun, 07-Feb-21 08:49:12 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
- !X-Powered-By: Express
- !X-Ratelimit-Limit: 1000
- !X-Ratelimit-Remaining: 999
- !X-Ratelimit-Reset: 1608186135
- !Vary: Origin, Accept-Encoding
- !'Access-Control-Allow-Credentials: true
- !Cache-Control: max-age=43200
- !Pragma: no-cache
- !Expires: -1
- ! X-Content-Type-Options: nosniff
- !+Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
- !Content-Encoding: gzip
- !Via: 1.1 vegur
- !CF-Cache-Status: HIT
- !
-Age: 3645
- !0cf-request-id: 0782c88b590000d6cdf2b62000000001
- !cExpect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
- !�Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=O%2BayQ8hxivFNjZwxemR4foTty8pUgi3YJjY7X0Bwp8me89VWzpNyluw2fHSnYEDF0Eh%2B2KW17JL%2BmhYhwj%2BPQz%2B3EVQ9iQV0%2BI98A5BhURwGZNIqXI04WxEDpFbR"}],"group":"cf-nel","max_age":604800}
- !-NEL: {"report_to":"cf-nel","max_age":604800}
- !Server: cloudflare
- !CF-RAY: 60e4a9f22feed6cd-FRA
- !
- ![
- !    {
- !        "id": 1,
- !!        "name": "Leanne Graham",
- !        "username": "Bret",
- !&        "email": "Sincere@april.biz",
- !        "address": {
- !%            "street": "Kulas Light",
- !!            "suite": "Apt. 556",
- !#            "city": "Gwenborough",
- !%            "zipcode": "92998-3874",
- !            "geo": {
- !#                "lat": "-37.3159",
- !!                "lng": "81.1496"
- !            }
- !        },
- !*        "phone": "1-770-736-8031 x56442",
- !$        "website": "hildegard.org",
- !        "company": {
- !'            "name": "Romaguera-Crona",
- !E            "catchPhrase": "Multi-layered client-server neural-net",
- !0            "bs": "harness real-time e-markets"
- !
+    }
+}
+HTTP/1.1 200 OK
+$Date: Fri, 08 Jan 2021 20:17:15 GMT
+.Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+�Set-Cookie: __cfduid=d85eda365e8b050be69e900d37fa442381610137035; expires=Sun, 07-Feb-21 20:17:15 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1610030622
+Vary: Origin, Accept-Encoding
+'Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+ X-Content-Type-Options: nosniff
++Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+Content-Encoding: gzip
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+
+Age: 3470
+0cf-request-id: 07853e7ae70000c863afa21000000001
+cExpect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+�Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=vVNTWYH49TgDy4L5cXd12JL6gIZQnraftDSrUlOUinFipz5UkQ8MFY1mH%2FdHgdl667uUH9bUXMIt7raR428J6nRAMSyl2faKBcOim8MyHLjbuDNZIvY1LcQn9oA3"}],"group":"cf-nel","max_age":604800}
+-NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 60e899d7dfd0c863-AMS
+
+[
+    {
+        "id": 1,
+!        "name": "Leanne Graham",
+        "username": "Bret",
+&        "email": "Sincere@april.biz",
+        "address": {
+%            "street": "Kulas Light",
+!            "suite": "Apt. 556",
+#            "city": "Gwenborough",
+%            "zipcode": "92998-3874",
+            "geo": {
+#                "lat": "-37.3159",
+!                "lng": "81.1496"
+            }
+        },
+*        "phone": "1-770-736-8031 x56442",
+$        "website": "hildegard.org",
+        "company": {
+'            "name": "Romaguera-Crona",
+E            "catchPhrase": "Multi-layered client-server neural-net",
+0            "bs": "harness real-time e-markets"
+
         }
- !    },
- !    {
- !        "id": 2,
- !         "name": "Ervin Howell",
- !!        "username": "Antonette",
- !&        "email": "Shanna@melissa.tv",
- !        "address": {
- !'            "street": "Victor Plains",
- !"            "suite": "Suite 879",
- !#            "city": "Wisokyburgh",
- !%            "zipcode": "90566-7771",
- !            "geo": {
- !#                "lat": "-43.9509",
- !"                "lng": "-34.4618"
- !            }
- !        },
- !(        "phone": "010-692-6593 x09125",
- !$        "website": "anastasia.net",
- !        "company": {
- !$            "name": "Deckow-Crist",
- !=            "catchPhrase": "Proactive didactic contingency",
- !5            "bs": "synergize scalable supply-chains"
- !
+    },
+    {
+        "id": 2,
+         "name": "Ervin Howell",
+!        "username": "Antonette",
+&        "email": "Shanna@melissa.tv",
+        "address": {
+'            "street": "Victor Plains",
+"            "suite": "Suite 879",
+#            "city": "Wisokyburgh",
+%            "zipcode": "90566-7771",
+            "geo": {
+#                "lat": "-43.9509",
+"                "lng": "-34.4618"
+            }
+        },
+(        "phone": "010-692-6593 x09125",
+$        "website": "anastasia.net",
+        "company": {
+$            "name": "Deckow-Crist",
+=            "catchPhrase": "Proactive didactic contingency",
+5            "bs": "synergize scalable supply-chains"
+
         }
- !    },
- !    {
- !        "id": 3,
- !$        "name": "Clementine Bauch",
- !         "username": "Samantha",
- !'        "email": "Nathan@yesenia.net",
- !        "address": {
- !+            "street": "Douglas Extension",
- !"            "suite": "Suite 847",
- !%            "city": "McKenziehaven",
- !%            "zipcode": "59590-4157",
- !            "geo": {
- !#                "lat": "-68.6102",
- !"                "lng": "-47.0653"
- !            }
- !        },
- !#        "phone": "1-463-123-4447",
- !"        "website": "ramiro.info",
- !        "company": {
- !*            "name": "Romaguera-Jacobson",
- !@            "catchPhrase": "Face to face bifurcated interface",
- !4            "bs": "e-enable strategic applications"
- !
+    },
+    {
+        "id": 3,
+$        "name": "Clementine Bauch",
+         "username": "Samantha",
+'        "email": "Nathan@yesenia.net",
+        "address": {
++            "street": "Douglas Extension",
+"            "suite": "Suite 847",
+%            "city": "McKenziehaven",
+%            "zipcode": "59590-4157",
+            "geo": {
+#                "lat": "-68.6102",
+"                "lng": "-47.0653"
+            }
+        },
+#        "phone": "1-463-123-4447",
+"        "website": "ramiro.info",
+        "company": {
+*            "name": "Romaguera-Jacobson",
+@            "catchPhrase": "Face to face bifurcated interface",
+4            "bs": "e-enable strategic applications"
+
         }
- !    },
- !    {
- !        "id": 4,
- !$        "name": "Patricia Lebsack",
- !         "username": "Karianne",
- !.        "email": "Julianne.OConner@kory.org",
- !        "address": {
- !%            "street": "Hoeger Mall",
- !!            "suite": "Apt. 692",
- !#            "city": "South Elvis",
- !%            "zipcode": "53919-4257",
- !            "geo": {
- !"                "lat": "29.4572",
- !#                "lng": "-164.2990"
- !            }
- !        },
- !&        "phone": "493-170-9623 x156",
- !        "website": "kale.biz",
- !        "company": {
- !%            "name": "Robel-Corkery",
- !G            "catchPhrase": "Multi-tiered zero tolerance productivity",
- !9            "bs": "transition cutting-edge web services"
- !
+    },
+    {
+        "id": 4,
+$        "name": "Patricia Lebsack",
+         "username": "Karianne",
+.        "email": "Julianne.OConner@kory.org",
+        "address": {
+%            "street": "Hoeger Mall",
+!            "suite": "Apt. 692",
+#            "city": "South Elvis",
+%            "zipcode": "53919-4257",
+            "geo": {
+"                "lat": "29.4572",
+#                "lng": "-164.2990"
+            }
+        },
+&        "phone": "493-170-9623 x156",
+        "website": "kale.biz",
+        "company": {
+%            "name": "Robel-Corkery",
+G            "catchPhrase": "Multi-tiered zero tolerance productivity",
+9            "bs": "transition cutting-edge web services"
+
         }
- !    },
- !    {
- !        "id": 5,
- !$        "name": "Chelsey Dietrich",
- !        "username": "Kamren",
- !-        "email": "Lucio_Hettinger@annie.ca",
- !        "address": {
- !&            "street": "Skiles Walks",
- !"            "suite": "Suite 351",
- !"            "city": "Roscoeview",
- !             "zipcode": "33263",
- !            "geo": {
- !#                "lat": "-31.8129",
- !!                "lng": "62.5342"
- !            }
- !        },
- !"        "phone": "(254)954-1289",
- !#        "website": "demarco.info",
- !        "company": {
- !#            "name": "Keebler LLC",
- !C            "catchPhrase": "User-centric fault-tolerant solution",
- !5            "bs": "revolutionize end-to-end systems"
- !
+    },
+    {
+        "id": 5,
+$        "name": "Chelsey Dietrich",
+        "username": "Kamren",
+-        "email": "Lucio_Hettinger@annie.ca",
+        "address": {
+&            "street": "Skiles Walks",
+"            "suite": "Suite 351",
+"            "city": "Roscoeview",
+             "zipcode": "33263",
+            "geo": {
+#                "lat": "-31.8129",
+!                "lng": "62.5342"
+            }
+        },
+"        "phone": "(254)954-1289",
+#        "website": "demarco.info",
+        "company": {
+#            "name": "Keebler LLC",
+C            "catchPhrase": "User-centric fault-tolerant solution",
+5            "bs": "revolutionize end-to-end systems"
+
         }
- !    },
- !    {
- !        "id": 6,
- !(        "name": "Mrs. Dennis Schulist",
- !(        "username": "Leopoldo_Corkery",
- !,        "email": "Karley_Dach@jasper.info",
- !        "address": {
- !+            "street": "Norberto Crossing",
- !!            "suite": "Apt. 950",
- !%            "city": "South Christy",
- !%            "zipcode": "23505-1337",
- !            "geo": {
- !#                "lat": "-71.4197",
- !!                "lng": "71.7478"
- !            }
- !        },
- !)        "phone": "1-477-935-8478 x6430",
- !        "website": "ola.org",
- !        "company": {
- !)            "name": "Considine-Lockman",
- !A            "catchPhrase": "Synchronised bottom-line interface",
- !5            "bs": "e-enable innovative applications"
- !
+    },
+    {
+        "id": 6,
+(        "name": "Mrs. Dennis Schulist",
+(        "username": "Leopoldo_Corkery",
+,        "email": "Karley_Dach@jasper.info",
+        "address": {
++            "street": "Norberto Crossing",
+!            "suite": "Apt. 950",
+%            "city": "South Christy",
+%            "zipcode": "23505-1337",
+            "geo": {
+#                "lat": "-71.4197",
+!                "lng": "71.7478"
+            }
+        },
+)        "phone": "1-477-935-8478 x6430",
+        "website": "ola.org",
+        "company": {
+)            "name": "Considine-Lockman",
+A            "catchPhrase": "Synchronised bottom-line interface",
+5            "bs": "e-enable innovative applications"
+
         }
- !    },
- !    {
- !        "id": 7,
- !#        "name": "Kurtis Weissnat",
- !$        "username": "Elwyn.Skiles",
- !+        "email": "Telly.Hoeger@billy.biz",
- !        "address": {
- !#            "street": "Rex Trail",
- !"            "suite": "Suite 280",
- !!            "city": "Howemouth",
- !%            "zipcode": "58804-1099",
- !            "geo": {
- !"                "lat": "24.8918",
- !!                "lng": "21.8984"
- !            }
- !        },
- !!        "phone": "210.067.6132",
- !        "website": "elvis.io",
- !        "company": {
- !#            "name": "Johns Group",
- !A            "catchPhrase": "Configurable multimedia task-force",
- !2            "bs": "generate enterprise e-tailers"
- !
+    },
+    {
+        "id": 7,
+#        "name": "Kurtis Weissnat",
+$        "username": "Elwyn.Skiles",
++        "email": "Telly.Hoeger@billy.biz",
+        "address": {
+#            "street": "Rex Trail",
+"            "suite": "Suite 280",
+!            "city": "Howemouth",
+%            "zipcode": "58804-1099",
+            "geo": {
+"                "lat": "24.8918",
+!                "lng": "21.8984"
+            }
+        },
+!        "phone": "210.067.6132",
+        "website": "elvis.io",
+        "company": {
+#            "name": "Johns Group",
+A            "catchPhrase": "Configurable multimedia task-force",
+2            "bs": "generate enterprise e-tailers"
+
         }
- !    },
- !    {
- !        "id": 8,
- !,        "name": "Nicholas Runolfsdottir V",
- !%        "username": "Maxime_Nienow",
- !)        "email": "Sherwood@rosamond.me",
- !        "address": {
- !*            "street": "Ellsworth Summit",
- !"            "suite": "Suite 729",
- !!            "city": "Aliyaview",
- !             "zipcode": "45169",
- !            "geo": {
- !#                "lat": "-14.3990",
- !#                "lng": "-120.7677"
- !            }
- !        },
- !&        "phone": "586.493.6943 x140",
- !#        "website": "jacynthe.com",
- !        "company": {
- !'            "name": "Abernathy Group",
- !<            "catchPhrase": "Implemented secondary concept",
- !2            "bs": "e-enable extensible e-tailers"
- !
+    },
+    {
+        "id": 8,
+,        "name": "Nicholas Runolfsdottir V",
+%        "username": "Maxime_Nienow",
+)        "email": "Sherwood@rosamond.me",
+        "address": {
+*            "street": "Ellsworth Summit",
+"            "suite": "Suite 729",
+!            "city": "Aliyaview",
+             "zipcode": "45169",
+            "geo": {
+#                "lat": "-14.3990",
+#                "lng": "-120.7677"
+            }
+        },
+&        "phone": "586.493.6943 x140",
+#        "website": "jacynthe.com",
+        "company": {
+'            "name": "Abernathy Group",
+<            "catchPhrase": "Implemented secondary concept",
+2            "bs": "e-enable extensible e-tailers"
+
         }
- !    },
- !    {
- !        "id": 9,
- !#        "name": "Glenna Reichert",
- !         "username": "Delphine",
- !,        "email": "Chaim_McDermott@dana.io",
- !        "address": {
- !$            "street": "Dayna Park",
- !"            "suite": "Suite 449",
- !&            "city": "Bartholomebury",
- !%            "zipcode": "76495-3109",
- !            "geo": {
- !"                "lat": "24.6463",
- !#                "lng": "-168.8889"
- !            }
- !        },
- !)        "phone": "(775)976-6794 x41206",
- !!        "website": "conrad.com",
- !        "company": {
- !%            "name": "Yost and Sons",
- !D            "catchPhrase": "Switchable contextually-based project",
- !5            "bs": "aggregate real-time technologies"
- !
+    },
+    {
+        "id": 9,
+#        "name": "Glenna Reichert",
+         "username": "Delphine",
+,        "email": "Chaim_McDermott@dana.io",
+        "address": {
+$            "street": "Dayna Park",
+"            "suite": "Suite 449",
+&            "city": "Bartholomebury",
+%            "zipcode": "76495-3109",
+            "geo": {
+"                "lat": "24.6463",
+#                "lng": "-168.8889"
+            }
+        },
+)        "phone": "(775)976-6794 x41206",
+!        "website": "conrad.com",
+        "company": {
+%            "name": "Yost and Sons",
+D            "catchPhrase": "Switchable contextually-based project",
+5            "bs": "aggregate real-time technologies"
+
         }
- !    },
- !    {
- !        "id": 10,
- !&        "name": "Clementina DuBuque",
- !&        "username": "Moriah.Stanton",
- !+        "email": "Rey.Padberg@karina.biz",
- !        "address": {
- !)            "street": "Kattie Turnpike",
- !"            "suite": "Suite 198",
- !#            "city": "Lebsackbury",
- !%            "zipcode": "31428-2261",
- !            "geo": {
- !#                "lat": "-38.2386",
- !!                "lng": "57.2232"
- !            }
- !        },
- !!        "phone": "024-648-3804",
- !"        "website": "ambrose.net",
- !        "company": {
- !"            "name": "Hoeger LLC",
- !@            "catchPhrase": "Centralized empowering task-force",
- !-            "bs": "target end-to-end models"
- !
+    },
+    {
+        "id": 10,
+&        "name": "Clementina DuBuque",
+&        "username": "Moriah.Stanton",
++        "email": "Rey.Padberg@karina.biz",
+        "address": {
+)            "street": "Kattie Turnpike",
+"            "suite": "Suite 198",
+#            "city": "Lebsackbury",
+%            "zipcode": "31428-2261",
+            "geo": {
+#                "lat": "-38.2386",
+!                "lng": "57.2232"
+            }
+        },
+!        "phone": "024-648-3804",
+"        "website": "ambrose.net",
+        "company": {
+"            "name": "Hoeger LLC",
+@            "catchPhrase": "Centralized empowering task-force",
+-            "bs": "target end-to-end models"
+
         }
- !    }
- !]
+    }
+]
+
+1 + 1 = 2
+2
+
+2 + 2 = 4
+4
+ 
+3 + 3 = 6
+ 6
+!
+4 + 4 = 8
+!8

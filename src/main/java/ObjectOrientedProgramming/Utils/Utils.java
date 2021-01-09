@@ -27,13 +27,11 @@ public class Utils {
             // load properties file into it
             prop.load(fis);
 
-        } catch (FileNotFoundException e) {
-
-            e.printStackTrace();
         } catch (IOException e) {
 
             e.printStackTrace();
         } finally {
+            assert fis != null;
             fis.close();
         }
 

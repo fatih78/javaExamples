@@ -7,15 +7,18 @@ package ObjectOrientedProgramming;
 import ObjectOrientedProgramming.Utils.Utils;
 
 public class Person extends Utils {
-    private String name;
-    private int age = 0;
-    private String gender;
+
+    private String name = prop.getProperty("name");
+    private int age = Integer.parseInt(prop.getProperty("age"));
+    private String gender = prop.getProperty("gender");
 
 
     // Name
     // Getter
-    public void getName(String name) {
-        if (this.name == null) {
+    public void getName(String name) throws Exception {
+        if (name.equals("")) {
+            throw new Exception("Name is not provided");
+        } else {
             setName(name);
         }
     }
@@ -32,8 +35,10 @@ public class Person extends Utils {
 
     // Age
     // Getter
-    public void getAge(int age) {
-        if (this.age == 0) {
+    public void getAge(int age) throws Exception {
+        if (age == 0) {
+            throw new Exception("Age is not provided");
+        } else {
             setAge(age);
         }
     }
@@ -50,8 +55,10 @@ public class Person extends Utils {
 
     //    Gender
     //    Getter
-    public void getGender(String gender) {
-        if (this.gender == null) {
+    public void getGender(String gender) throws Exception {
+        if (gender.equals("")) {
+            throw new Exception("Gender is not provided");
+        } else {
             setGender(gender);
         }
     }
@@ -65,5 +72,4 @@ public class Person extends Utils {
     public String Gender() {
         return this.gender;
     }
-
 }

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UnitTestCalculatorMultiplification" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-01-08T23:58:35" hostname="Air-van-Fatih.home" time="0.049">
+<testsuite name="UnitTestCalculatorMultiplification" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-01-09T12:10:26" hostname="Air-van-Fatih.home" time="0.035">
   <properties/>
-  <testcase name="calculatorTest1" classname="UnitTestCalculatorMultiplification" time="0.021"/>
-  <testcase name="calculatorTest2" classname="UnitTestCalculatorMultiplification" time="0.003"/>
-  <testcase name="calculatorTest3" classname="UnitTestCalculatorMultiplification" time="0.001"/>
+  <testcase name="calculatorTest1" classname="UnitTestCalculatorMultiplification" time="0.001"/>
+  <testcase name="calculatorTest2" classname="UnitTestCalculatorMultiplification" time="0.001"/>
+  <testcase name="calculatorTest3" classname="UnitTestCalculatorMultiplification" time="0.002"/>
   <testcase name="calculatorTest4" classname="UnitTestCalculatorMultiplification" time="0.001"/>
-  <testcase name="calculatorTest5" classname="UnitTestCalculatorMultiplification" time="0.0"/>
-  <testcase name="calculatorTest6" classname="UnitTestCalculatorMultiplification" time="0.004"/>
-  <testcase name="calculatorTest7" classname="UnitTestCalculatorMultiplification" time="0.002"/>
+  <testcase name="calculatorTest5" classname="UnitTestCalculatorMultiplification" time="0.001"/>
+  <testcase name="calculatorTest6" classname="UnitTestCalculatorMultiplification" time="0.002"/>
+  <testcase name="calculatorTest7" classname="UnitTestCalculatorMultiplification" time="0.001"/>
   <testcase name="calculatorTest8" classname="UnitTestCalculatorMultiplification" time="0.001"/>
-  <testcase name="calculatorTest9" classname="UnitTestCalculatorMultiplification" time="0.001"/>
-  <testcase name="calculatorTest10" classname="UnitTestCalculatorMultiplification" time="0.002"/>
+  <testcase name="calculatorTest9" classname="UnitTestCalculatorMultiplification" time="0.002"/>
+  <testcase name="calculatorTest10" classname="UnitTestCalculatorMultiplification" time="0.016"/>
   <system-out><![CDATA[2 * 1 = 2
 2
 2 * 2 = 4

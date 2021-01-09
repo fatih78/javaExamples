@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UnitTestCalculatorSum" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-01-08T23:58:40" hostname="Air-van-Fatih.home" time="0.004">
+<testsuite name="UnitTestCalculatorSum" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-01-09T12:10:32" hostname="Air-van-Fatih.home" time="0.009">
   <properties/>
-  <testcase name="calculatorTest1" classname="UnitTestCalculatorSum" time="0.001"/>
+  <testcase name="calculatorTest1" classname="UnitTestCalculatorSum" time="0.0"/>
   <testcase name="calculatorTest2" classname="UnitTestCalculatorSum" time="0.001"/>
-  <testcase name="calculatorTest3" classname="UnitTestCalculatorSum" time="0.001"/>
-  <testcase name="calculatorTest4" classname="UnitTestCalculatorSum" time="0.0"/>
+  <testcase name="calculatorTest3" classname="UnitTestCalculatorSum" time="0.002"/>
+  <testcase name="calculatorTest4" classname="UnitTestCalculatorSum" time="0.005"/>
   <system-out><![CDATA[1 + 1 = 2
 2
 2 + 2 = 4

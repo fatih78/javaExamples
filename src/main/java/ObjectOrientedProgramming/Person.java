@@ -4,7 +4,9 @@ package ObjectOrientedProgramming;
     Getters & Setters
         in this class */
 
-public class Person {
+import ObjectOrientedProgramming.Utils.Utils;
+
+public class Person extends Utils {
     private String name;
     private int age = 0;
     private String gender;

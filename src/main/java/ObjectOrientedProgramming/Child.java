@@ -21,7 +21,7 @@ public class Child extends Parent {
 
     @Override
     public String show() {
-        System.out.println(message2());
+//        System.out.println(message2());
         return message2();
     }
 }

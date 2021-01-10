@@ -24,7 +24,7 @@ public class Parent extends Utils {
 
     // Signature same as in the Child class
     public String show() {
-        System.out.println(message1);
+//        System.out.println(message1);
         return message1;
     }
 

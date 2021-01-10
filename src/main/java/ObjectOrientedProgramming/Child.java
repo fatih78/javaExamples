@@ -16,12 +16,23 @@ package ObjectOrientedProgramming;
 // Inherited Class
 public class Child extends Parent {
 
-    // This method overrides show() of Parent
-//  signature same as in the Parent class
+/*
+@Override @Override annotation informs the compiler that the element is meant to override an element declared in a superclass.
+This method overrides show() of Parent
+Signature same as in the Parent class
+ */
 
     @Override
     public String show() {
-//        System.out.println(message2());
+//        super.show();
+        System.out.println(message2());
         return message2();
+    }
+
+    @Override
+    public String talk() {
+//        super.show();
+        System.out.println(message4());
+        return message4();
     }
 }

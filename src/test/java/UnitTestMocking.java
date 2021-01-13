@@ -11,17 +11,25 @@ import org.junit.Test;
 public class UnitTestMocking {
 
     @Test
-    public void test() {
+    public void testMocking() {
+        // you mock data in your test
         MockingA myA = new MockingA();
         MockingB myB = mock(MockingB.class);
 
-//        // dummy function
-        when(myB.funcMultiple(anyInt())).thenReturn(60);
-
         // replace B with mocked B
-        myA.object= myB;
+        when(myB.funcMultiple(anyInt())).thenReturn(60);
+        myA.object = myB;
         int actual = myA.funcMultiple2();
 
         assertEquals(60, actual);
+    }
+
+    @Test
+    public void testWithoutMocking() {
+        // test without mock data in your test, calling the real function in class B
+        MockingB myB = new MockingB();
+        int actual = myB.funcMultiple(22);
+
+        assertEquals(66, actual);
     }
 }

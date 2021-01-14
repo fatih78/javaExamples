@@ -1,5 +1,6 @@
 import ObjectOrientedProgramming.Mocking.MockingCustomerReader;
 import org.junit.Test;
+
 import static org.junit.Assert.assertEquals;
 import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.mock;
@@ -11,7 +12,7 @@ public class UnitTestMockingCustomer {
 
     //    test without mocking
     @Test
-    public void testCustomer(){
+    public void testCustomer() {
         String result = mockingCustomerReader.findFullName(anyString());
         System.out.println(result);
         assertEquals("Fatih Topcuoglu", result);
@@ -19,7 +20,7 @@ public class UnitTestMockingCustomer {
 
     //    test with mocking
     @Test
-    public void testCustomerWithMocking(){
+    public void testCustomerWithMocking() {
         MockingCustomerReader myCutomerReader = mock(MockingCustomerReader.class);
         when(myCutomerReader.findFullName(anyString())).thenReturn("No Name");
 

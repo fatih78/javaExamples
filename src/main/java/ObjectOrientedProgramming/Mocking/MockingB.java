@@ -2,7 +2,8 @@ package ObjectOrientedProgramming.Mocking;
 
 public class MockingB {
     public static int result;
-    public int funcMultiple(int number){
+
+    public int funcMultiple(int number) {
         result = number * 3;
         return result;
     }

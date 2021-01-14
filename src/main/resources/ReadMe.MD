@@ -12,6 +12,7 @@ UnitTest: Every Method is tested by a UnitTest
 * Basics of polymorphism;
 * Controllers implemented to simplify components;
 * Helper methods in a helper class 'Utils.class' implemented;
+* Added TestCases with mocked data by 'Mockito'
 
 * API testing implemented as UnitTest;
 * API testing scheme validation against .json files in the recourse folder;

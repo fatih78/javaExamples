@@ -16,3 +16,10 @@ UnitTest: Every Method is tested by a UnitTest
 
 * API testing implemented as UnitTest;
 * API testing scheme validation against .json files in the recourse folder;
+
+* TO DO:
+    * ENUMS
+    * PolyMorphism
+    * Parent & SubClass
+    * More examples of constructors
+    * TestReport

@@ -1,4 +1,4 @@
-package ObjectOrientedProgramming;
+package ObjectOrientedProgramming.Mocking;
 
 public class MockingB {
     public static int result;

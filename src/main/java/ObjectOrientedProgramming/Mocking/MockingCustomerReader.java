@@ -1,4 +1,4 @@
-package ObjectOrientedProgramming;
+package ObjectOrientedProgramming.Mocking;
 
 public class MockingCustomerReader extends MockingCustomer{
     MockingCustomer mockingCustomer = new MockingCustomer();

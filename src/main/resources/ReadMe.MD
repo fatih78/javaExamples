@@ -13,6 +13,8 @@ UnitTest: Every Method is tested by a UnitTest
 * Controllers implemented to simplify components;
 * Helper methods in a helper class 'Utils.class' implemented;
 * Added TestCases with mocked data by 'Mockito'
+* Custom Exception Handling added 'CustomException.class' with Student.Class & UnitTestExceptionHandling.class
+
 
 * API testing implemented as UnitTest;
 * API testing scheme validation against .json files in the recourse folder;
@@ -20,7 +22,6 @@ UnitTest: Every Method is tested by a UnitTest
 * TO DO:
     * ENUMS
     * PolyMorphism
-    * Exception Handling
     * Parent & SubClass
     * More examples of constructors
     * Streams

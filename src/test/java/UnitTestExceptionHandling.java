@@ -1,19 +1,31 @@
-import ObjectOrientedProgramming.Exceptions;
-import ObjectOrientedProgramming.Mocking.MockingA;
-import ObjectOrientedProgramming.Mocking.MockingB;
+import ObjectOrientedProgramming.CustomExceptionHandling.Student;
+import ObjectOrientedProgramming.Utils.CustomException;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.mockito.ArgumentMatchers.anyInt;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
-
 public class UnitTestExceptionHandling {
+    Student st = new Student();
 
     @Test
+    public void testExceptionHandling() throws CustomException {
 
-    public void testExceptionHandling() {
-        Exceptions e = new Exceptions("src/main/resources/myProp.propertie");
+        try {
+            Student student = st.find("0000001");
 
+        } catch (CustomException ex) {
+            throw new CustomException("Could not find studentID");
+//            System.err.print(ex);
+        }
+    }
+
+    @Test
+    public void noExceptionHandling() throws CustomException {
+
+        try {
+            Student student = st.find("123456");
+
+        } catch (CustomException ex) {
+            throw new CustomException("Could not find studentID");
+//            System.err.print(ex);
+        }
     }
 }

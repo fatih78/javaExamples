@@ -8,12 +8,10 @@ import java.util.Properties;
 public class FileReader {
 
     public void find(String fileName) throws CustomException, IOException {
-        FileInputStream fis = null;
-        Properties prop = null;
         if (fileName != null) {
             try {
-                fis = new FileInputStream(fileName);
-                prop = new Properties();
+                FileInputStream  fis = new FileInputStream(fileName);
+                Properties prop = new Properties();
                 prop.load(fis);
 
             } catch (IOException e) {

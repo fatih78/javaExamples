@@ -11,7 +11,7 @@ Information about @Override methods:
     then the method in the subclass is said to override the method in the super-class.
   */
 
-package ObjectOrientedProgramming;
+package ObjectOrientedProgramming.Overriding;
 
 // Inherited Class
 public class Child extends Parent {

@@ -20,6 +20,12 @@ UnitTest: Every Method is tested by a UnitTest
 * TO DO:
     * ENUMS
     * PolyMorphism
+    * Exception Handling
     * Parent & SubClass
     * More examples of constructors
+    * Streams
+    * Arrays & Lists
+    * Intrface
+    * Loops (for, while, foreach)
+    * Decision Making (if else, switch break)
     * TestReport

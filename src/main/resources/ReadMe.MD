@@ -30,3 +30,5 @@ UnitTest: Every Method is tested by a UnitTest
     * Loops (for, while, foreach)
     * Decision Making (if else, switch break)
     * TestReport
+    
+* CommandLine Run Test & Build project with './gradlew build'    

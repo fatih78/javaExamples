@@ -26,7 +26,7 @@ UnitTest: Every Method is tested by a UnitTest
     * More examples of constructors
     * Streams
     * Arrays & Lists
-    * Intrface
+    * Interface
     * Loops (for, while, foreach)
     * Decision Making (if else, switch break)
     * TestReport

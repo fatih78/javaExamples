@@ -1,4 +1,5 @@
 import ObjectOrientedProgramming.CustomExceptionHandling.FileReader;
+import ObjectOrientedProgramming.CustomExceptionHandling.Nephew;
 import ObjectOrientedProgramming.CustomExceptionHandling.Student;
 import ObjectOrientedProgramming.Utils.CustomException;
 import java.io.IOException;
@@ -7,8 +8,10 @@ import org.junit.Test;
 public class UnitTestExceptionHandling {
     Student st = new Student();
     FileReader fr = new FileReader();
+    Nephew nw = new Nephew();
 
-//    throws customException "Could not find studentID"
+
+    //    throws customException "Could not find studentID"
     @Test
     public void testExceptionHandlingStudent() throws CustomException {
         try {
@@ -25,6 +28,27 @@ public class UnitTestExceptionHandling {
             st.find("123456");
         } catch (CustomException ex) {
             throw new CustomException("Could not find studentID");
+//            System.err.print(ex);
+        }
+    }
+
+    //    throws customException "Could not find studentID"
+    @Test
+    public void testExceptionHandlingNephew() throws CustomException {
+        try {
+            nw.find("blabla");
+        } catch (CustomException ex) {
+            throw new CustomException("Could not find Nephew");
+//            System.err.print(ex);
+        }
+    }
+
+    @Test
+    public void noExceptionHandlingNephew() throws CustomException {
+        try {
+            nw.find("Suleyman");
+        } catch (CustomException ex) {
+            throw new CustomException("Could not find Nephew");
 //            System.err.print(ex);
         }
     }

@@ -1,8 +1,6 @@
 package ObjectOrientedProgramming.CustomExceptionHandling;
 
 import ObjectOrientedProgramming.Utils.CustomException;
-
-import java.sql.Time;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -19,7 +17,7 @@ public class LockDown {
         if (date.compareTo(d2) >= 0 ) {
             return new LockDown();
         } else {
-            throw new CustomException("Avondklok not started yet " + date);
+            throw new CustomException("Avondklok not started yet: " + date);
         }
     }
 }

@@ -28,64 +28,36 @@ public class UnitTestExceptionHandling {
     @Test
     public void testExceptionHandlingLockdown() throws CustomException, ParseException {
         Date dateException = sdformat.parse("2021-01-21");
-        try {
-            ld.find(dateException);
-        } catch (CustomException ex) {
-            throw new CustomException("Avondklok not started yet" + "" + dateException);
-        }
+        ld.find(dateException);
     }
 
     //    No Exception
     @Test
     public void noExceptionHandlingLockdown() throws CustomException, ParseException {
         Date dateNoException = sdformat.parse("2021-01-23");
-        try {
-            ld.find(dateNoException);
-        } catch (CustomException | ParseException ex) {
-            throw new CustomException("Avondklok not started yet" + dateNoException);
-        }
+        ld.find(dateNoException);
     }
 
     //    throws customException "Could not find studentID"
     @Test
     public void testExceptionHandlingStudent() throws CustomException {
-        try {
-            st.find("0000001");
-        } catch (CustomException ex) {
-            throw new CustomException("Could not find studentID");
-//            System.err.print(ex);
-        }
+        st.find("0000001");
     }
 
     @Test
     public void noExceptionHandlingStudent() throws CustomException {
-        try {
-            st.find("123456");
-        } catch (CustomException ex) {
-            throw new CustomException("Could not find studentID");
-//            System.err.print(ex);
-        }
+        st.find("123456");
     }
 
     //    throws customException "Could not find Nephew"
     @Test
     public void testExceptionHandlingNephew() throws CustomException {
-        try {
-            nw.find("blabla");
-        } catch (CustomException ex) {
-            throw new CustomException("Could not find Nephew");
-//            System.err.print(ex);
-        }
+        nw.find("blabla");
     }
 
     @Test
     public void noExceptionHandlingNephew() throws CustomException {
-        try {
-            nw.find("Suleyman");
-        } catch (CustomException ex) {
-            throw new CustomException("Could not find Nephew");
-//            System.err.print(ex);
-        }
+        nw.find("Suleyman");
     }
 
     //    throws customException "Could not find file blabla"

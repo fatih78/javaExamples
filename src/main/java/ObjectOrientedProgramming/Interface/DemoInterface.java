@@ -14,4 +14,9 @@ public class DemoInterface implements MyInterface {
     public int method3() {
         return 8 * 9;
     }
+
+    @Override
+    public int method4() {
+        return 3 * 5;
+    }
 }

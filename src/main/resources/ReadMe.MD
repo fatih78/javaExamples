@@ -14,6 +14,7 @@ UnitTest: Every Method is tested by a UnitTest
 * Helper methods in a helper class 'Utils.class' implemented;
 * Added TestCases with mocked data by 'Mockito'
 * Custom Exception Handling added 'CustomException.class' with Student.class / FileReader.class & UnitTestExceptionHandling.class
+* Interface concept added with a UnitTest
 
 
 * API testing implemented as UnitTest;

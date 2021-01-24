@@ -9,13 +9,17 @@ import static org.junit.Assert.assertEquals;
 
 public class UnitTestListFromCollection {
     CollectionToArrayList c = new CollectionToArrayList();
+
+    ArrayList<Integer> arrayList3 = new ArrayList<>();
+    ArrayList<String> namesList = new ArrayList<>();
+
     public Stream<Integer> streamInt = Stream.of(1, 2, 3, 4, 5);
     public Stream<String> streamString = Stream.of("Fatih", "Rola", "Yusuf", "Elanur", "Harun");
 
 
     @Test
 //    Integer List
-    public void integerListFromCollectionsSysPrint(){
+    public void integerListFromCollectionsSysPrint() {
         // Convert Stream to ArrayList in Java
         ArrayList<Integer> arrayList = c.getArrayListFromStream(streamInt);
         System.out.println(arrayList);
@@ -23,8 +27,7 @@ public class UnitTestListFromCollection {
 
     @Test
 //    Integer List
-    public void integerListFromCollectionsAssertion(){
-        ArrayList<Integer> arrayList3 = new ArrayList<>();
+    public void integerListFromCollectionsAssertion() {
         arrayList3.add(1);
         arrayList3.add(2);
         arrayList3.add(3);
@@ -40,8 +43,7 @@ public class UnitTestListFromCollection {
 
     @Test
 //    String List
-    public void stringListFromCollectionsAssertion(){
-        ArrayList<String> namesList = new ArrayList<>();
+    public void stringListFromCollectionsAssertion() {
         namesList.add("Fatih");
         namesList.add("Rola");
         namesList.add("Yusuf");

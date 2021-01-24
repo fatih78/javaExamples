@@ -9,17 +9,20 @@ import static org.junit.Assert.assertEquals;
 
 public class UnitTestListFromCollection {
     CollectionToArrayList c = new CollectionToArrayList();
-    public Stream<Integer> stream = Stream.of(1, 2, 3, 4, 5);
+    public Stream<Integer> streamInt = Stream.of(1, 2, 3, 4, 5);
+    public Stream<String> streamString = Stream.of("Fatih", "Rola", "Yusuf", "Elanur", "Harun");
 
 
     @Test
+//    Integer List
     public void integerListFromCollectionsSysPrint(){
         // Convert Stream to ArrayList in Java
-        ArrayList<Integer> arrayList = c.getArrayListFromStream(stream);
+        ArrayList<Integer> arrayList = c.getArrayListFromStream(streamInt);
         System.out.println(arrayList);
     }
 
     @Test
+//    Integer List
     public void integerListFromCollectionsAssertion(){
         ArrayList<Integer> arrayList3 = new ArrayList<>();
         arrayList3.add(1);
@@ -29,13 +32,26 @@ public class UnitTestListFromCollection {
         arrayList3.add(5);
 
         // Convert Stream to ArrayList in Java
-        List<ArrayList<Integer>> arrayList1 = asList(c.getArrayListFromStream(stream));
+        List<ArrayList<Integer>> arrayList1 = asList(c.getArrayListFromStream(streamInt));
 
         assertEquals(arrayList1, arrayList3);
 
+    }
 
-        System.out.println(arrayList1);
-        System.out.println(arrayList3);
+    @Test
+//    String List
+    public void stringListFromCollectionsAssertion(){
+        ArrayList<String> namesList = new ArrayList<>();
+        namesList.add("Fatih");
+        namesList.add("Rola");
+        namesList.add("Yusuf");
+        namesList.add("Elanur");
+        namesList.add("Harun");
+
+        // Convert Stream to ArrayList in Java
+        List<ArrayList<String>> arrayList1 = asList(c.getArrayListFromStream(streamString));
+
+        assertEquals(arrayList1, namesList);
 
     }
 }

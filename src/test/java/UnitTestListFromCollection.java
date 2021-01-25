@@ -79,7 +79,7 @@ public class UnitTestListFromCollection {
     }
 
     @Test
-//    Integer List
+//    Integer List Assertion Exact value
     public void integerListFromCollectionsAssertionExact() {
         arrayList3.add(1);
         arrayList3.add(2);

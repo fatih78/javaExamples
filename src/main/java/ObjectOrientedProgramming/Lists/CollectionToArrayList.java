@@ -13,12 +13,8 @@ public class CollectionToArrayList {
         // Convert the Stream to List
         List<T> list = stream.collect(Collectors.toList());
 
-        // Create an ArrayList of the List
-        ArrayList<T> arrayList = new ArrayList<T>(list);
-
-
         // Return the ArrayList
-        return arrayList;
+        return new ArrayList<T>(list);
 
     }
 }

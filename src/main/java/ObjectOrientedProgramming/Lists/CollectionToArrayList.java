@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class CollectionToArrayList {
+    public static List<Integer> l1 = new ArrayList<>();
 
     // Function to get ArrayList from Stream
     public <T> ArrayList <T> getArrayListFromStream (Stream<T> stream) {
@@ -17,4 +18,5 @@ public class CollectionToArrayList {
         return new ArrayList<T>(list);
 
     }
+
 }

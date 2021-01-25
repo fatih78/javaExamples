@@ -2,14 +2,17 @@ import ObjectOrientedProgramming.Lists.CollectionToArrayList;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Vector;
 import java.util.stream.Stream;
 
 import org.junit.Test;
 
+import static ObjectOrientedProgramming.Lists.CollectionToArrayList.l1;
 import static org.codehaus.groovy.runtime.InvokerHelper.asList;
 import static org.junit.Assert.assertEquals;
 
 public class UnitTestListFromCollection {
+    int result;
     CollectionToArrayList c = new CollectionToArrayList();
 
     ArrayList<Integer> arrayList3 = new ArrayList<>();
@@ -17,6 +20,7 @@ public class UnitTestListFromCollection {
 
     ArrayList<String> namesList = new ArrayList<>();
     public Stream<String> streamString = Stream.of("Fatih", "Rola", "Yusuf", "Elanur", "Harun");
+
 
 
     @Test
@@ -93,5 +97,33 @@ public class UnitTestListFromCollection {
 
         assertEquals(arrayList1.get(0), 1);
 
+    }
+
+    @Test
+    public void addIntegerValuesInLoop(){
+        Stream<Integer> streamInt2 = Stream.of(1, 2, 3, 4);
+        List<ArrayList<Integer>> arrayList2 = asList(c.getArrayListFromStream(streamInt2));
+
+        l1.add(1);
+        l1.add(2);
+        l1.add(3);
+        l1.add(4);
+
+        for (int i = 0; i < l1.size(); i++) {
+             result = l1.get(i);
+            System.out.println(result);
+        }
+        assertEquals(arrayList2, l1);
+    }
+
+    @Test
+    public void addIntegerValuesInLoopExact(){
+        int n = 5;
+        for (int i = 0; i <= n ; i++) {
+            l1.add(i);
+        }
+        System.out.println(l1);
+        result = l1.get(0);
+        assertEquals(result, 0);
     }
 }

@@ -1,13 +1,14 @@
 import ObjectOrientedProgramming.Lists.CollectionToArrayList;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Vector;
 import java.util.stream.Stream;
 
 import org.junit.Test;
 
-import static ObjectOrientedProgramming.Lists.CollectionToArrayList.l1;
+import static ObjectOrientedProgramming.Lists.CollectionToArrayList.*;
 import static org.codehaus.groovy.runtime.InvokerHelper.asList;
 import static org.junit.Assert.assertEquals;
 
@@ -125,5 +126,17 @@ public class UnitTestListFromCollection {
         System.out.println(l1);
         result = l1.get(0);
         assertEquals(result, 0);
+    }
+
+    @Test
+    public void addAndRemoveIntegerValues(){
+        list.add("hello");
+        list.add(1, "sunny");
+        list.add(2, "world");
+        assertEquals(expected, list);
+
+        list.remove("hello");
+        assertEquals(expected2, list);
+
     }
 }

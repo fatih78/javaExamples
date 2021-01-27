@@ -3,13 +3,14 @@ import ObjectOrientedProgramming.CustomExceptionHandling.LockDown;
 import ObjectOrientedProgramming.CustomExceptionHandling.Nephew;
 import ObjectOrientedProgramming.CustomExceptionHandling.Student;
 import ObjectOrientedProgramming.Utils.CustomException;
-
 import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
 import org.junit.Test;
+
+import static org.hamcrest.Matchers.is;
+import static org.junit.Assert.assertThat;
 
 public class UnitTestExceptionHandling {
 
@@ -41,7 +42,11 @@ public class UnitTestExceptionHandling {
     //    throws customException "Could not find studentID"
     @Test
     public void testExceptionHandlingStudent() throws CustomException {
-        st.find("0000001");
+        try{
+            st.find("0000001");
+        } catch (CustomException e){
+            assertThat(e.getMessage(), is("Could not find student with ID 0000001"));
+        }
     }
 
     @Test

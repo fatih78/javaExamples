@@ -15,9 +15,9 @@ UnitTest: Every Method is tested by a UnitTest
 * Added TestCases with mocked data by 'Mockito'
 * Custom Exception Handling added 'CustomException.class' with Student.class / FileReader.class & UnitTestExceptionHandling.class
 
+*  Decision Making (if else, switch break)
 * 'Interface concept' added with  UnitTests
 * 'Lists, Collections and Streams' concepts added with UnitTests
-
 
 * API testing implemented as UnitTest;
 * API testing scheme validation against .json files in the recourse folder;
@@ -29,7 +29,6 @@ UnitTest: Every Method is tested by a UnitTest
     * More examples of constructors
     * Mapping
     * Loops (for, while, foreach)
-    * Decision Making (if else, switch break)
     * TestReport
     * Logging also for happy flows
     

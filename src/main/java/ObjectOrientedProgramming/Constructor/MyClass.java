@@ -1,6 +1,8 @@
 package ObjectOrientedProgramming.Constructor;
 
-public class MyClass {
+import ObjectOrientedProgramming.Utils.Utils;
+
+public class MyClass extends Utils {
 
 //    data members of the class
     public long id;
@@ -8,6 +10,8 @@ public class MyClass {
     public int age;
     public String greeting;
     public String name;
+    public String message;
+
 
     // constructor would initialize data members
     // with the values of passed arguments while
@@ -21,8 +25,10 @@ public class MyClass {
     // constructor with one argument
     public MyClass (String name) {
         this.name = name;
-        System.out.println("Constructor with one " +
-                "argument - String : " + name);
+        this.message = prop.getProperty("message1");
+        System.out.println("Constructor with one " + "argument - String : " + name);
+        System.out.println(message);
+
     }
 
     // constructor with two arguments
@@ -40,4 +46,5 @@ public class MyClass {
         System.out.println("Constructor with one argument : " +
                 "Long : " + id);
     }
+
 }

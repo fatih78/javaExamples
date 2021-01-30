@@ -17,14 +17,14 @@ public class MyClass extends Utils {
     // with the values of passed arguments while
     // object of that class created
 
-    public MyClass(int number, String greeting){
-        this.number = number;
-        this.greeting = greeting;
+    public MyClass(int theNumber, String theGreeting){
+        this.number = theNumber;
+        this.greeting = theGreeting;
     }
 
     // constructor with one argument
-    public MyClass (String name) {
-        this.name = name;
+    public MyClass (String theName) {
+        this.name = theName;
         this.message = prop.getProperty("message1");
         System.out.println("Constructor with one " + "argument - String : " + name);
         System.out.println(message);
@@ -32,19 +32,18 @@ public class MyClass extends Utils {
     }
 
     // constructor with two arguments
-    public MyClass(String name, int age) {
-        this.name = name;
-        this.age = age;
+    public MyClass(String theName, int theAge) {
+        this.name = theName;
+        this.age = theAge;
         System.out.println("Constructor with two arguments : " +
                 " String and Integer : " + name + " "+ age);
     }
 
     // Constructor with one argument but with different
     // type than previous..
-    public MyClass(long id) {
-        this.id = id;
-        System.out.println("Constructor with one argument : " +
-                "Long : " + id);
+    public MyClass(long theId) {
+        this.id = theId;
+        System.out.println("Constructor with one argument : " + "Long : " + id);
     }
 
 }

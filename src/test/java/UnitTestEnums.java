@@ -1,4 +1,5 @@
-import ObjectOrientedProgramming.Directions;
+import ObjectOrientedProgramming.Enums.Directions;
+import ObjectOrientedProgramming.Enums.Level;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -27,6 +28,24 @@ public class UnitTestEnums {
     @Test
     public void direction4() {
         Assert.assertEquals(dir4.getDirectionCode(), "S");
+    }
+
+    @Test
+    public void level1() {
+        Level level = Level.valueOf("LOW");
+        Assert.assertEquals(level, Level.LOW);
+    }
+
+    @Test
+    public void level2() {
+        Level level = Level.valueOf("MEDIUM");
+        Assert.assertEquals(level, Level.MEDIUM);
+    }
+
+    @Test
+    public void level3() {
+        Level level = Level.valueOf("HIGH");
+        Assert.assertEquals(level, Level.HIGH);
     }
 
 }

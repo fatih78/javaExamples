@@ -18,12 +18,13 @@ UnitTest: Every Method is tested by a UnitTest
 *  Decision Making (if else, switch break)
 * 'Interface concept' added with  UnitTests
 * 'Lists, Collections and Streams' concepts added with UnitTests
+* 'ENUMS' concepts added with UnitTests
+
 
 * API testing implemented as UnitTest;
 * API testing scheme validation against .json files in the recourse folder;
 
 * TO DO:
-    * ENUMS
     * PolyMorphism
     * Parent & SubClass
     * More examples of constructors

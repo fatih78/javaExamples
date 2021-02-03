@@ -29,7 +29,6 @@ UnitTest: Every Method is tested by a UnitTest
     * PolyMorphism
     * Parent & SubClass
     * More examples of constructors
-    * Mapping
     * Loops (for, while, foreach)
     * TestReport
     * Logging also for happy flows

@@ -16,6 +16,7 @@ public class UnitTestConstructor {
     public void oneArgumentedConstructorTest(){
         MyClass myClass = new MyClass("Fatih");
         Assert.assertEquals(myClass.name, "Fatih");
+        Assert.assertEquals(myClass.message, "Parent is shown");
     }
 
     @Test

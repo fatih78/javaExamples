@@ -19,6 +19,7 @@ UnitTest: Every Method is tested by a UnitTest
 * 'Interface concept' added with  UnitTests
 * 'Lists, Collections and Streams' concepts added with UnitTests
 * 'ENUMS' concepts added with UnitTests
+* 'Mapping' concepts added with UnitTests
 
 
 * API testing implemented as UnitTest;

@@ -1,16 +1,16 @@
-plugins {
-    id 'java'
-}
-
 group 'org.example'
 version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'jacoco'
 
 repositories {
     mavenCentral()
 }
 
-apply plugin: 'java'
-apply plugin: 'jacoco'
+jacoco{
+    toolVersion = '0.8.6'
+}
 
 
 dependencies {

@@ -39,6 +39,12 @@ sourceSets {
         }
     }
 
+    task coverage {
+        dependsOn 'test'
+        dependsOn 'jacocoTestReport'
+        tasks.findByName('jacocoTestReport').mustRunAfter('test')
+    }
+
 
     jacocoTestCoverageVerification {
         violationRules {
@@ -69,8 +75,11 @@ sourceSets {
         }
     }
 
+
+
 // always run the tests before generating the report
     codeCoverageReport.dependsOn {
-        subprojects*.test
+        subprojects.test
+        test.finalizedBy(jacocoTestReport)
     }
 }

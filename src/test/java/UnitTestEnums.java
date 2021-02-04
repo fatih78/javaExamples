@@ -1,5 +1,5 @@
-import ObjectOrientedProgramming.Enums.Directions;
-import ObjectOrientedProgramming.Enums.Level;
+import FatihObjectOrientedProgramming.Enums.Directions;
+import FatihObjectOrientedProgramming.Enums.Level;
 import org.junit.Assert;
 import org.junit.Test;
 

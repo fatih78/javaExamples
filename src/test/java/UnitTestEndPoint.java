@@ -1,13 +1,8 @@
-import ObjectOrientedProgramming.Utils.EndPointUtil;
-import io.restassured.response.Response;
+import FatihObjectOrientedProgramming.Utils.EndPointUtil;
 import org.junit.Test;
 
 import java.io.IOException;
-import java.util.List;
-import java.util.Map;
 import java.util.Properties;
-
-import static ObjectOrientedProgramming.Utils.EndPointUtil.doGetRequest;
 
 public class UnitTestEndPoint extends EndPointUtil {
     Properties prop = readPropertiesFile("src/main/resources/myProp.properties");

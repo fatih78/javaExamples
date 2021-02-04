@@ -1,6 +1,6 @@
-import ObjectOrientedProgramming.Overriding.Animal;
-import ObjectOrientedProgramming.Overriding.Cat;
-import ObjectOrientedProgramming.Overriding.Dog;
+import FatihObjectOrientedProgramming.Overriding.Animal;
+import FatihObjectOrientedProgramming.Overriding.Cat;
+import FatihObjectOrientedProgramming.Overriding.Dog;
 import org.junit.Assert;
 import org.junit.Test;
 

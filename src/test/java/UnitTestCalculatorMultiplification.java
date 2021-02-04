@@ -1,5 +1,5 @@
-import ObjectOrientedProgramming.CalculatorController;
-import ObjectOrientedProgramming.Utils.CalculatorMultipleUtil;
+import FatihObjectOrientedProgramming.Controllers.CalculatorController;
+import FatihObjectOrientedProgramming.Utils.CalculatorMultipleUtil;
 import org.junit.Assert;
 import org.junit.Test;
 

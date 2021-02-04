@@ -1,5 +1,5 @@
-import ObjectOrientedProgramming.Overriding.Child;
-import ObjectOrientedProgramming.Overriding.Parent;
+import FatihObjectOrientedProgramming.Overriding.Child;
+import FatihObjectOrientedProgramming.Overriding.Parent;
 import org.junit.Assert;
 import org.junit.Test;
 

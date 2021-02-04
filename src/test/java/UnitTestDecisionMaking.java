@@ -1,6 +1,6 @@
-import ObjectOrientedProgramming.DecisionMaking.DecisionMakingIf;
-import ObjectOrientedProgramming.DecisionMaking.DecisionMakingSwitch;
-import ObjectOrientedProgramming.Utils.CustomException;
+import FatihObjectOrientedProgramming.DecisionMaking.DecisionMakingIf;
+import FatihObjectOrientedProgramming.DecisionMaking.DecisionMakingSwitch;
+import FatihObjectOrientedProgramming.Utils.CustomException;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -36,4 +36,39 @@ public class UnitTestDecisionMaking {
         assertThat(s.exceptionMessage, is("Invalid Day"));
     }
 
+    @Test
+    public void simpleSwitchStatementWithoutException2() throws CustomException {
+        s.simpleSwitchStatement(2);
+        Assert.assertEquals(s.dayString, "Tuesday");
+    }
+
+    @Test
+    public void simpleSwitchStatementWithoutException3() throws CustomException {
+        s.simpleSwitchStatement(3);
+        Assert.assertEquals(s.dayString, "Wednesday");
+    }
+
+    @Test
+    public void simpleSwitchStatementWithoutException4() throws CustomException {
+        s.simpleSwitchStatement(4);
+        Assert.assertEquals(s.dayString, "Thursday");
+    }
+
+    @Test
+    public void simpleSwitchStatementWithoutException5() throws CustomException {
+        s.simpleSwitchStatement(5);
+        Assert.assertEquals(s.dayString, "Friday");
+    }
+
+    @Test
+    public void simpleSwitchStatementWithoutException6() throws CustomException {
+        s.simpleSwitchStatement(6);
+        Assert.assertEquals(s.dayString, "Saturday");
+    }
+
+    @Test
+    public void simpleSwitchStatementWithoutException7() throws CustomException {
+        s.simpleSwitchStatement(7);
+        Assert.assertEquals(s.dayString, "Sunday");
+    }
 }

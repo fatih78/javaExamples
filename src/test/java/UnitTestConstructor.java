@@ -1,4 +1,4 @@
-import ObjectOrientedProgramming.Constructor.MyClass;
+import FatihObjectOrientedProgramming.Constructor.MyClass;
 import org.junit.Assert;
 import org.junit.Test;
 

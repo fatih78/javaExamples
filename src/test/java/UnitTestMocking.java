@@ -1,5 +1,5 @@
-import ObjectOrientedProgramming.Mocking.MockingA;
-import ObjectOrientedProgramming.Mocking.MockingB;
+import FatihObjectOrientedProgramming.Mocking.MockingA;
+import FatihObjectOrientedProgramming.Mocking.MockingB;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.ArgumentMatchers.anyInt;

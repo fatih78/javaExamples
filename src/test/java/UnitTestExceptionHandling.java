@@ -1,5 +1,5 @@
-import ObjectOrientedProgramming.CustomExceptionHandling.*;
-import ObjectOrientedProgramming.Utils.CustomException;
+import FatihObjectOrientedProgramming.CustomExceptionHandling.*;
+import FatihObjectOrientedProgramming.Utils.CustomException;
 
 import java.io.IOException;
 import java.text.ParseException;

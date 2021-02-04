@@ -1,7 +1,7 @@
-import ObjectOrientedProgramming.Interface.DemoInterface;
-import ObjectOrientedProgramming.Interface.DemoInterface2;
-import ObjectOrientedProgramming.Interface.DemoInterface3;
-import ObjectOrientedProgramming.Utils.MyInterface;
+import FatihObjectOrientedProgramming.Interface.DemoInterface;
+import FatihObjectOrientedProgramming.Interface.DemoInterface2;
+import FatihObjectOrientedProgramming.Interface.DemoInterface3;
+import FatihObjectOrientedProgramming.Utils.MyInterface;
 import org.junit.Assert;
 import org.junit.Test;
 

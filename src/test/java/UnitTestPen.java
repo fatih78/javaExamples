@@ -1,5 +1,5 @@
-import ObjectOrientedProgramming.JavaBestPractices.Pen;
-import ObjectOrientedProgramming.Utils.Utils;
+import FatihObjectOrientedProgramming.JavaBestPractices.Pen;
+import FatihObjectOrientedProgramming.Utils.Utils;
 import org.junit.Assert;
 import org.junit.Test;
 

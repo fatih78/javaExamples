@@ -1,5 +1,5 @@
-import ObjectOrientedProgramming.CalculatorController;
-import ObjectOrientedProgramming.Utils.CalculatorSumUtil;
+import FatihObjectOrientedProgramming.Controllers.CalculatorController;
+import FatihObjectOrientedProgramming.Utils.CalculatorSumUtil;
 import org.junit.Assert;
 import org.junit.Test;
 

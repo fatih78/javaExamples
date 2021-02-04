@@ -1,14 +1,12 @@
-import ObjectOrientedProgramming.Lists.CollectionToArrayList;
+import FatihObjectOrientedProgramming.Lists.CollectionToArrayList;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.Vector;
 import java.util.stream.Stream;
 
 import org.junit.Test;
 
-import static ObjectOrientedProgramming.Lists.CollectionToArrayList.*;
+import static FatihObjectOrientedProgramming.Lists.CollectionToArrayList.*;
 import static org.codehaus.groovy.runtime.InvokerHelper.asList;
 import static org.junit.Assert.assertEquals;
 

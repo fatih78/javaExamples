@@ -1,4 +1,4 @@
-package ObjectOrientedProgramming;
+package ObjectOrientedProgramming.JavaBestPractices;
 
 
 import ObjectOrientedProgramming.Utils.Utils;

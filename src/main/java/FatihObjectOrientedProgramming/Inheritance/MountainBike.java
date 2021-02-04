@@ -14,7 +14,7 @@ public class MountainBike extends Bycicle{
 
     // the MountainBike subclass adds one more method
     public void setHeight(int newValue) {
-        seatHeight = newValue;
+        seatHeight += newValue;
     }
 
     // overriding toString() method

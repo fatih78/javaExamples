@@ -20,7 +20,7 @@ UnitTest: Every Method is tested by a UnitTest
 * 'Lists, Collections and Streams' concepts added with UnitTests
 * 'ENUMS' concepts added with UnitTests
 * 'Mapping' concepts added with UnitTests
-
+* TestReport
 
 * API testing implemented as UnitTest;
 * API testing scheme validation against .json files in the recourse folder;
@@ -30,7 +30,6 @@ UnitTest: Every Method is tested by a UnitTest
     * Parent & SubClass
     * More examples of constructors
     * Loops (for, while, foreach)
-    * TestReport
     * Logging also for happy flows
     
 * CommandLine Run Test & Build project with './gradlew build' 

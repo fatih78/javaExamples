@@ -36,7 +36,9 @@ public class UnitTestConstructor {
 
     @Test
     public void basicClassConst(){
-        BasicClass basicClass = new BasicClass(1);
+        BasicClass basicClass = new BasicClass(1, 1978, "Mustang");
         Assert.assertEquals(basicClass.x, 1);
+        Assert.assertEquals(basicClass.modelYear, 1978);
+        Assert.assertEquals(basicClass.modelName, "Mustang");
     }
 }

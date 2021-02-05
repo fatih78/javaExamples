@@ -1,9 +1,11 @@
+import FatihObjectOrientedProgramming.Constructor.BasicClass;
 import FatihObjectOrientedProgramming.Constructor.MyClass;
 import org.junit.Assert;
 import org.junit.Test;
 
 public class UnitTestConstructor {
     private Object MyClass;
+    private Object BasicClass;
 
     @Test
     public void parameterizedConstructorTest(){
@@ -30,5 +32,11 @@ public class UnitTestConstructor {
     public void difTypeArgumentedConstructorTest(){
         MyClass myClass = new MyClass('1');
         Assert.assertEquals(myClass.id, '1');
+    }
+
+    @Test
+    public void basicClassConst(){
+        BasicClass basicClass = new BasicClass(1);
+        Assert.assertEquals(basicClass.x, 1);
     }
 }

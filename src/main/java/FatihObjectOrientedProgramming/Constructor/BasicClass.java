@@ -1,6 +1,8 @@
 package FatihObjectOrientedProgramming.Constructor;
 
-public class BasicClass {
+import FatihObjectOrientedProgramming.Controllers.CalculatorController;
+
+public class BasicClass extends CalculatorController {
 
     public int x;
     public int modelYear;
@@ -11,10 +13,10 @@ public class BasicClass {
         this.x = x;
         this.modelYear = modelYear;
         this.modelName = modelName;
-        result = calculate();
+        calculate();
     }
 
-    public int calculate (){
-        return x * 2;
+    public void calculate (){
+        result = CalculatorMultiplicationTable(2, 2, 2);
     }
 }

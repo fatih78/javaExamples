@@ -40,6 +40,6 @@ public class UnitTestConstructor {
         Assert.assertEquals(basicClass.x, 1);
         Assert.assertEquals(basicClass.modelYear, 1978);
         Assert.assertEquals(basicClass.modelName, "Mustang");
-        Assert.assertEquals(basicClass.result, 2);
+        Assert.assertEquals(basicClass.result, 4);
     }
 }

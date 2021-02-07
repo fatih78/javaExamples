@@ -33,4 +33,4 @@ UnitTest: Every Method is tested by a UnitTest
     * Logging also for happy flows
     
 * CommandLine Run Test & Build project with './gradlew build' 
-* ./gradlew clean build && ./gradlew jacocoTestReport
+* ./gradlew clean build && FactoryExampleClass

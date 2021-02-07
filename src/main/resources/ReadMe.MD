@@ -20,7 +20,8 @@ UnitTest: Every Method is tested by a UnitTest
 * 'Lists, Collections and Streams' concepts added with UnitTests
 * 'ENUMS' concepts added with UnitTests
 * 'Mapping' concepts added with UnitTests
-* TestReport
+*  TestReport
+* TestNG
 
 * API testing implemented as UnitTest;
 * API testing scheme validation against .json files in the recourse folder;

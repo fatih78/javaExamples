@@ -4,7 +4,7 @@
 <suite name = "suite1" >
     <test name = "JUnitTests" junit="true">
         <classes>
-            <class name = "TestNGFactoryExample" />
+            <class name = "TestNGTestDataTest" />
             <class name = "UnitTestConstructor" />
             <class name = "UnitTestAnimalMethodOverride" />
             <class name = "UnitTestCalculatorMultiplification" />

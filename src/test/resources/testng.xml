@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "suite1" >
+    <test name = "JUnitTests" junit="true">
+        <classes>
+            <class name = "TestNGFactoryExample" />
+            <class name = "UnitTestConstructor" />
+            <class name = "UnitTestAnimalMethodOverride" />
+            <class name = "UnitTestCalculatorMultiplification" />
+            <class name = "UnitTestCalculatorSum" />
+            <class name = "UnitTestDecisionMaking" />
+            <class name = "UnitTestDemoInterface" />
+            <class name = "UnitTestEndPoint" />
+            <class name = "UnitTestEnums" />
+            <class name = "UnitTestExceptionHandling" />
+            <class name = "UnitTestHeadPhones" />
+            <class name = "UnitTestInheritance" />
+            <class name = "UnitTestListFromCollection" />
+            <class name = "UnitTestMapping" />
+            <class name = "UnitTestMocking" />
+            <class name = "UnitTestMockingCustomer" />
+            <class name = "UnitTestParentChildMethodOverride" />
+            <class name = "UnitTestPen" />
+            <class name = "UnitTestPerson" />
+        </classes>
+    </test>
+</suite>

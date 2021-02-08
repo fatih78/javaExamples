@@ -1,7 +1,6 @@
 import FatihObjectOrientedProgramming.TestNGFactory.TestData;
 import org.junit.Assert;
 import org.testng.annotations.Factory;
-import org.testng.annotations.Test;
 
 public class TestNGFactoryExample extends TestData {
 
@@ -9,7 +8,7 @@ public class TestNGFactoryExample extends TestData {
         super(objectID, testdata);
     }
 
-    @Test
+    @org.testng.annotations.Test
     public void testmethod() {
         System.out.println(objectID + ":" + "" + "This is test method, testdata is  :" + testdata);
     }

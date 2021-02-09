@@ -1,10 +1,16 @@
 package FatihObjectOrientedProgramming.LambdaExpressions;
 
-public class Greetings {
+public class LambdaExamples {
     String result;
 
     public interface MyGreeting {
         String processName(String str);
+    }
+
+    interface MyFunctionalInterface {
+
+        //A method with single parameter
+        public int incrementByFive(int a);
     }
 
     public String morningGreeting() {
@@ -17,5 +23,11 @@ public class Greetings {
         MyGreeting eveningGreeting = (str) -> "Good Evening " + str + "!";
         System.out.println(eveningGreeting.processName("Fatih"));
         return result = eveningGreeting.processName("Fatih");
+    }
+
+    public int increment(){
+        MyFunctionalInterface f = (num) -> num+5;
+        System.out.println(f.incrementByFive(22));
+        return f.incrementByFive(22);
     }
 }

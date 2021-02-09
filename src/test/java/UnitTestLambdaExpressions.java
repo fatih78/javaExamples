@@ -1,4 +1,5 @@
 import FatihObjectOrientedProgramming.LambdaExpressions.Numbers;
+import org.junit.Assert;
 import org.junit.Test;
 
 public class UnitTestLambdaExpressions {
@@ -8,5 +9,6 @@ public class UnitTestLambdaExpressions {
     @Test
     public void testNumbers(){
         n.numbers().forEach((n) -> {System.out.println(n);});
+        Assert.assertTrue(n.numbers.size() == 4);
     }
 }

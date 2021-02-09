@@ -15,6 +15,7 @@ UnitTest: Every Method is tested by a UnitTest
 * Added TestCases with mocked data by 'Mockito'
 * Custom Exception Handling added 'CustomException.class' with Student.class / FileReader.class & UnitTestExceptionHandling.class
 
+*  Lambda Expressions
 *  Decision Making (if else, switch break)
 * 'Interface concept' added with  UnitTests
 * 'Lists, Collections and Streams' concepts added with UnitTests

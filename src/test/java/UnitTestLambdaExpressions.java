@@ -3,6 +3,9 @@ import FatihObjectOrientedProgramming.LambdaExpressions.Numbers;
 import org.junit.Assert;
 import org.junit.Test;
 
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.CoreMatchers.containsString;
+
 public class UnitTestLambdaExpressions {
     Numbers n = new Numbers();
     LambdaExamples l = new LambdaExamples();
@@ -27,5 +30,20 @@ public class UnitTestLambdaExpressions {
     @Test
     public void unitTestIncrement() {
         Assert.assertEquals(l.increment(), 27);
+    }
+
+    @Test
+    public void unitTestDouble() {
+        Assert.assertEquals(l.getPiValue(), 3);
+    }
+
+    @Test
+    public void unitTestHello() {
+        assertThat(l.getHello(), containsString("Hello"));
+    }
+
+    @Test
+    public void unitTestHello2() {
+        assertThat(l.getHello2(), containsString("Hello"));
     }
 }

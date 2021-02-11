@@ -13,6 +13,10 @@ public class LambdaExamples {
         public int incrementByFive(int a);
     }
 
+    interface MyHelloInterface {
+        String hello(String str);
+    }
+
     public String morningGreeting() {
         MyGreeting morningGreeting = (str) -> "Good Morning " + str + "!";
         System.out.println(morningGreeting.processName("Fatih"));
@@ -30,4 +34,20 @@ public class LambdaExamples {
         System.out.println(f.incrementByFive(22));
         return f.incrementByFive(22);
     }
+
+    public int getPiValue() {
+        MyFunctionalInterface f = (num) -> (int) 3.1415;
+        System.out.println(f.incrementByFive(22));
+        return f.incrementByFive((int) 8.1415);
+    }
+
+    public String getHello() {
+        return "Hello";
+    }
+
+    public String getHello2(){
+        MyHelloInterface h = (hi) -> "Hello2";
+        return h.hello("Hello2");
+    }
+
 }

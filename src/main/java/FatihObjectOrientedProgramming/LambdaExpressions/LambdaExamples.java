@@ -17,6 +17,14 @@ public class LambdaExamples {
         String hello(String str);
     }
 
+    // this is functional interface
+    @FunctionalInterface
+    interface MyInterface{
+
+        // abstract method
+        double getPiValue();
+    }
+
     public String morningGreeting() {
         MyGreeting morningGreeting = (str) -> "Good Morning " + str + "!";
         System.out.println(morningGreeting.processName("Fatih"));
@@ -35,11 +43,12 @@ public class LambdaExamples {
         return f.incrementByFive(22);
     }
 
-    public int getPiValue() {
-        MyFunctionalInterface f = (num) -> (int) 3.1415;
-        System.out.println(f.incrementByFive(22));
-        return f.incrementByFive((int) 8.1415);
+    public double getPiValue() {
+        MyInterface ref = () -> 3.1415;;
+        System.out.println("Value of Pi = " + ref.getPiValue());
+        return ref.getPiValue();
     }
+
 
     public String getHello() {
         return "Hello";

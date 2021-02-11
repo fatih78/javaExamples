@@ -5,6 +5,7 @@ import org.junit.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.CoreMatchers.containsString;
+import static org.junit.Assert.assertEquals;
 
 public class UnitTestLambdaExpressions {
     Numbers n = new Numbers();
@@ -19,22 +20,22 @@ public class UnitTestLambdaExpressions {
 
     @Test
     public void unitTestgreetings() {
-        Assert.assertEquals(l.morningGreeting(), "Good Morning Fatih!");
+        assertEquals(l.morningGreeting(), "Good Morning Fatih!");
     }
 
     @Test
     public void unitTestgreetings2() {
-        Assert.assertEquals(l.eveningGreeting(), "Good Evening Fatih!");
+        assertEquals(l.eveningGreeting(), "Good Evening Fatih!");
     }
 
     @Test
     public void unitTestIncrement() {
-        Assert.assertEquals(l.increment(), 27);
+        assertEquals(l.increment(), 27);
     }
 
     @Test
     public void unitTestDouble() {
-        Assert.assertEquals(l.getPiValue(), 3);
+        assertEquals(l.getPiValue(), 3.1415, 1);
     }
 
     @Test

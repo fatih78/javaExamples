@@ -13,7 +13,7 @@ import java.util.Comparator;
 public class UnitTestLambdaExpressions {
     Numbers n = new Numbers();
     LambdaExamples l = new LambdaExamples();
-
+    Apple a = new Apple();
 
     @Test
     public void unitTestNumbers() {
@@ -73,7 +73,6 @@ public class UnitTestLambdaExpressions {
         System.out.println(result);
         Assert.assertEquals(result, -1.0, 0.1);
 
-
     }
 
     @Test
@@ -82,6 +81,21 @@ public class UnitTestLambdaExpressions {
         double result = a.compare(1.5, 2.5);
         System.out.println(result);
         Assert.assertEquals(result, -1.0, 0.1);
+    }
+
+    @Test
+    public void unitTestAppleColor() {
+        String result = a.setColor("Red");
+        System.out.println(result);
+        assertEquals(result, "Red");
+
+    }
+
+    @Test
+    public void unitTestAppleLambdaColor() {
+        String result = a.color("Red");
+        System.out.println(result);
+        assertEquals(result, "Red");
     }
 
 }

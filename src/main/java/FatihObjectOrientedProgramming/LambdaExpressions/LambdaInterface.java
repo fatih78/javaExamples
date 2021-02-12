@@ -33,4 +33,9 @@ public interface LambdaInterface {
         // abstract method
         double getWight2();
     }
+
+    interface Color{
+        // abstract method
+        String getColor();
+    }
 }

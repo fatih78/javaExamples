@@ -1,3 +1,4 @@
+import FatihObjectOrientedProgramming.LambdaExpressions.Apple;
 import FatihObjectOrientedProgramming.LambdaExpressions.LambdaExamples;
 import FatihObjectOrientedProgramming.LambdaExpressions.Numbers;
 import org.junit.Assert;
@@ -57,5 +58,18 @@ public class UnitTestLambdaExpressions {
     @Test
     public void unitTestHello3Lambda() {
         assertThat(l.getHello3Lambda(), containsString("Fatih with Lambda"));
+    }
+
+    @Test
+    public void unitTestAppleWeightComparison() {
+        Apple a = new Apple();
+        a.setWeight1(1.0);
+        a.setWeight2(2.0);
+        double result = a.compare1(a.getWeight2(), a.getWeight1());
+        System.out.println(result);
+
+        Assert.assertEquals(result, -1.0, 0.1);
+
+
     }
 }

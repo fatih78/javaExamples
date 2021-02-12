@@ -1,7 +1,5 @@
 package FatihObjectOrientedProgramming.LambdaExpressions;
 
-import java.util.Comparator;
-
 public class Apple {
     String color;
     Double weight1;
@@ -31,9 +29,15 @@ public class Apple {
         this.weight2 = weight2;
     }
 
-    public int compare1(Double weight1, Double weight2){
-            return getWeight1().compareTo(getWeight2());
-        };
+    public int compare1(Double weight1, Double weight2) {
+        return getWeight1().compareTo(getWeight2());
+    };
 
-//    int compare2 (Double weight1, Double weight2) -> a1.getWeight().compareTo(a2.getWeight());
+
+    public double compare(double c1, double c2) {
+        LambdaInterface.Comparison1 compare = () -> c1;
+        LambdaInterface.Comparison2 compare2 = () -> c2;
+        return Double.compare(compare.getWight1(), compare2.getWight2());
+    };
+
 }

@@ -1,6 +1,7 @@
 package FatihObjectOrientedProgramming.LambdaExpressions;
 
 public interface LambdaInterface {
+    @FunctionalInterface
 
     interface MyGreeting {
         String processName(String str);
@@ -17,10 +18,19 @@ public interface LambdaInterface {
     }
 
     // this is functional interface
-    @FunctionalInterface
     interface MyInterface{
 
         // abstract method
         double getPiValue();
+    }
+
+    interface Comparison1{
+        // abstract method
+        double getWight1();
+    }
+
+    interface Comparison2{
+        // abstract method
+        double getWight2();
     }
 }

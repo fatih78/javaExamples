@@ -8,6 +8,8 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.junit.Assert.assertEquals;
 
+import java.util.Comparator;
+
 public class UnitTestLambdaExpressions {
     Numbers n = new Numbers();
     LambdaExamples l = new LambdaExamples();
@@ -15,7 +17,9 @@ public class UnitTestLambdaExpressions {
 
     @Test
     public void unitTestNumbers() {
-        n.numbers().forEach((n) -> { System.out.println(n);});
+        n.numbers().forEach((n) -> {
+            System.out.println(n);
+        });
         Assert.assertTrue(n.numbers.size() == 4);
     }
 
@@ -67,9 +71,17 @@ public class UnitTestLambdaExpressions {
         a.setWeight2(2.0);
         double result = a.compare1(a.getWeight2(), a.getWeight1());
         System.out.println(result);
-
         Assert.assertEquals(result, -1.0, 0.1);
 
 
     }
+
+    @Test
+    public void unitTestAppleWeightComparisonLambda() {
+        Apple a = new Apple();
+        double result = a.compare(1.5, 2.5);
+        System.out.println(result);
+        Assert.assertEquals(result, -1.0, 0.1);
+    }
+
 }

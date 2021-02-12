@@ -1,29 +1,7 @@
 package FatihObjectOrientedProgramming.LambdaExpressions;
 
-public class LambdaExamples {
+public class LambdaExamples implements LambdaInterface{
     String result;
-
-    public interface MyGreeting {
-        String processName(String str);
-    }
-
-    interface MyFunctionalInterface {
-
-        //A method with single parameter
-        public int incrementByFive(int a);
-    }
-
-    interface MyHelloInterface {
-        String hello(String str);
-    }
-
-    // this is functional interface
-    @FunctionalInterface
-    interface MyInterface{
-
-        // abstract method
-        double getPiValue();
-    }
 
     public String morningGreeting() {
         MyGreeting morningGreeting = (str) -> "Good Morning " + str + "!";
@@ -57,6 +35,19 @@ public class LambdaExamples {
     public String getHello2(){
         MyHelloInterface h = (hi) -> "Hello2";
         return h.hello("Hello2");
+    }
+
+//    Without Lambda
+    public String getHello3(String hello) {
+        System.out.println(hello);
+        return hello;
+    }
+
+    //    With Lambda
+    public String getHello3Lambda() {
+        MyHelloInterface h = (hi) -> hi + "with Lambda";
+        System.out.println(h.hello("Fatih "));
+        return result = h.hello("Fatih ");
     }
 
 }

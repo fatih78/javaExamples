@@ -47,4 +47,15 @@ public class UnitTestLambdaExpressions {
     public void unitTestHello2() {
         assertThat(l.getHello2(), containsString("Hello"));
     }
+
+    @Test
+    public void unitTestHello3() {
+        String result = l.getHello3("Hello3 Wihtout Lambda");
+        assertEquals(result, "Hello3 Wihtout Lambda");
+    }
+
+    @Test
+    public void unitTestHello3Lambda() {
+        assertThat(l.getHello3Lambda(), containsString("Fatih with Lambda"));
+    }
 }

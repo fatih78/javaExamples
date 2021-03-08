@@ -1,12 +1,22 @@
 package FatihObjectOrientedProgramming.Utils;
 
+import FatihObjectOrientedProgramming.JavaBestPractices.Primitives;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-public class Utils {
+public class Utils extends Primitives{
 
     public static Properties prop;
+    public static int TRANSACTION_ID;
+
+
+    public Utils() {
+        this.TRANSACTION_ID = transactionId;
+    }
+
+
 
     public static Properties readPropertiesFile(String fileName) throws IOException {
         FileInputStream fis = null;

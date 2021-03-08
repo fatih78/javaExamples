@@ -1,24 +1,28 @@
-import FatihObjectOrientedProgramming.Utils.CalculatorMultipleUtil;
+import FatihObjectOrientedProgramming.Controllers.CalculatorController;
+import FatihObjectOrientedProgramming.Utils.RandomNumbers;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static FatihObjectOrientedProgramming.JavaBestPractices.Primitives.*;
-import static FatihObjectOrientedProgramming.Utils.RandomValues.*;
+import static FatihObjectOrientedProgramming.Utils.CalculatorSumUtil.result2;
 
-public class UnitTestPrimitives extends CalculatorMultipleUtil {
+public class UnitTestPrimitives extends RandomNumbers {
+    CalculatorController s = new CalculatorController();
 
     @Test
     public void primitivesTest1() {
-        Assert.assertEquals(transactionId, TRANSACTION_ID);
+        s.CalculatorSum(TRANSACTION_ID, 2);
+        System.out.println(TRANSACTION_ID);
     }
 
     @Test
     public void primitivesTest2() {
-        Assert.assertEquals(doubleId, DOUBLE_ID, 0.001);
+        s.CalculatorSumDouble(DOUBLE_ID, 2.2);
+//        Assert.assertEquals(result2,);
+        System.out.println(DOUBLE_ID);
     }
 
-    @Test
-    public void primitivesTest3() {
-        Assert.assertEquals(floatId, FLOAT_ID, 0.001);
-    }
+//    @Test
+//    public void primitivesTest3() {
+//        Assert.assertEquals(floatId, FLOAT_ID, 0.001);
+//    }
 }

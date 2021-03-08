@@ -15,5 +15,9 @@ public class CalculatorController {
     public void CalculatorSum(int number, int i) {
         s.sumTable(number, i);
     }
+
+    public void CalculatorSumDouble(double number, double i) {
+        s.sumTableDouble(number, i);
+    }
 }
 

@@ -4,25 +4,33 @@ import java.util.Random;
 
 public class RandomNumbers {
 
+    protected int TRANSACTION_ID;
+    protected double DOUBLE_ID;
+    protected float FLOAT_ID;
+
+    public RandomNumbers() {
+        this.TRANSACTION_ID = randomize();
+        this.DOUBLE_ID = randomizeDouble();
+        this.FLOAT_ID = randomizeFloat();
+    }
+
+    int upperbound = 25;
+
     public int randomize(){
         Random rand = new Random(); //instance of random class
-        int upperbound = 25;
         //generate random values from 0-24
-        int int_random = rand.nextInt(upperbound);
-        return int_random;
+       return rand.nextInt(upperbound);
     }
 
     public double randomizeDouble(){
         Random rand = new Random(); //instance of random class
         //generate random values from 0-24
-        double double_random = rand.nextDouble();
-        return double_random;
+        return rand.nextDouble();
     }
 
     public float randomizeFloat(){
         Random rand = new Random(); //instance of random class
         //generate random values from 0-24
-        float float_random = rand.nextFloat();
-        return float_random;
+        return rand.nextFloat();
     }
 }

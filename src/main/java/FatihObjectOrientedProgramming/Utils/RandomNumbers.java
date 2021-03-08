@@ -2,14 +2,7 @@ package FatihObjectOrientedProgramming.Utils;
 
 import java.util.Random;
 
-import static FatihObjectOrientedProgramming.JavaBestPractices.Primitives.transactionId;
-
 public class RandomNumbers {
-    public static int TRANSACTION_ID;
-
-    public RandomNumbers() {
-        this.TRANSACTION_ID = transactionId;
-    }
 
     public int randomize(){
         Random rand = new Random(); //instance of random class

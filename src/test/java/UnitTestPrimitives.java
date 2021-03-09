@@ -25,8 +25,8 @@ public class UnitTestPrimitives extends RandomNumbers {
         System.out.println(DOUBLE_ID);
     }
 
-//    @Test
-//    public void primitivesTest3() {
-//        Assert.assertEquals(floatId, FLOAT_ID, 0.001);
-//    }
+    @Test
+    public void primitivesTest3() {
+
+    }
 }

@@ -24,7 +24,12 @@ public class APITestingSubscription extends EndPointUtil {
     }
 
     @Test
-    public void testGetSubscriptionByBrandLegacy() {
-        doGetRequestSubscription(endpointSubscription + "/hln/324711", "subscriptionByBrandLegacyId.json");
+    public void testGetSubscriptionByBrandLegacyCodeAndId() {
+        doGetRequestSubscription(endpointSubscription + "/hln/324711", "subscriptionByBrandLegacyCodeAndId.json");
+    }
+
+    @Test
+    public void testGetSubscriptionByBrandKeyAndId() {
+        doGetRequestSubscription(endpointSubscription + "/dm/483986/accounts", "subscriptionByBrandKeyAndId.json");
     }
 }

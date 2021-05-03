@@ -1,0 +1,145 @@
+{
+  "subscriptions": [
+    {
+      "id": "559425",
+      "brand": {
+        "id": "HLN",
+        "key": "net.persgroep.brand.hln",
+        "name": "Het Laatste Nieuws"
+      },
+      "startDate": "2021-03-29",
+      "endDate": "2021-11-26",
+      "edition": {
+        "id": "H05",
+        "description": "DENDERSTREEK"
+      },
+      "formula": {
+        "id": "HL_ALL_IN",
+        "description": "Het Laatste Nieuws Compleet\t"
+      },
+      "homeAddress": {
+        "street": "Van der Nootstraat",
+        "houseNumber": "3",
+        "zipCode": "9310",
+        "town": "MOORSEL",
+        "countryCode": "BE"
+      },
+      "deliveryAddress": {
+        "street": "Grote Baan",
+        "houseNumber": "275",
+        "zipCode": "9310",
+        "town": "HERDERSEM",
+        "countryCode": "BE"
+      },
+      "billingAddress": {
+        "street": "Van der Nootstraat",
+        "houseNumber": "3",
+        "zipCode": "9310",
+        "town": "MOORSEL",
+        "countryCode": "BE"
+      },
+      "distributions": 1,
+      "numberOfEditions": 23,
+      "paidBySomeoneElse": false,
+      "digital": false,
+      "subscriptionState": {
+        "value": "ACTIVE",
+        "suspensionDate": null
+      },
+      "onlineDeliveryScheme": "1234567",
+      "email": "KRISTOF.CAUTAERTS@PERSGROEP.BE",
+      "createdLocally": false,
+      "privacyData": {
+        "touchPoint": {},
+        "documentIds": []
+      },
+      "customer": {
+        "customerId": "463242",
+        "firstName": "KRISTOF",
+        "initials": "K.",
+        "lastName": "CAUTAERTS",
+        "sex": "MALE",
+        "birthDate": "1985-06-23",
+        "taxExempt": false,
+        "address": {
+          "street": "Van der Nootstraat",
+          "houseNumber": "3",
+          "zipCode": "9310",
+          "town": "MOORSEL",
+          "countryCode": "BE"
+        }
+      },
+      "trial": false,
+      "onlineAccessState": "ACTIVE",
+      "idForDisplay": "559425"
+    },
+    {
+      "id": "13563877",
+      "brand": {
+        "id": "WDG",
+        "key": "net.persgroep.brand.degelderlander",
+        "name": "De Gelderlander"
+      },
+      "startDate": "2018-10-24",
+      "endDate": "2018-12-04",
+      "edition": {
+        "id": "DGDB",
+        "description": "DG DIGITAAL BASIS"
+      },
+      "formula": {
+        "id": "WDG_P",
+        "description": "Digitaal basis"
+      },
+      "homeAddress": {
+        "street": "Geen Straat",
+        "houseNumber": "1",
+        "zipCode": "0000AA",
+        "town": "Geen Woonplaats",
+        "countryCode": "NL"
+      },
+      "deliveryAddress": {
+        "street": "Geen Straat",
+        "houseNumber": "1",
+        "zipCode": "0000AA",
+        "town": "Geen Woonplaats",
+        "countryCode": "NL"
+      },
+      "billingAddress": {
+        "street": "Geen Straat",
+        "houseNumber": "1",
+        "zipCode": "0000AA",
+        "town": "Geen Woonplaats",
+        "countryCode": "NL"
+      },
+      "distributions": 1,
+      "numberOfEditions": 0,
+      "paidBySomeoneElse": false,
+      "digital": true,
+      "subscriptionState": {
+        "value": "SUSPENDED",
+        "suspensionReason": "TERMINATED",
+        "suspensionDate": null
+      },
+      "onlineDeliveryScheme": "1234567",
+      "email": "KRISTOF.CAUTAERTS@PERSGROEP.BE",
+      "createdLocally": false,
+      "privacyData": {
+        "touchPoint": {},
+        "documentIds": []
+      },
+      "customer": {
+        "taxExempt": false,
+        "address": {
+          "street": "Geen Straat",
+          "houseNumber": "1",
+          "zipCode": "0000AA",
+          "town": "Geen Woonplaats",
+          "countryCode": "NL"
+        }
+      },
+      "trial": true,
+      "onlineAccessState": "TERMINATED",
+      "idForDisplay": "13563877"
+    }
+  ]
+}

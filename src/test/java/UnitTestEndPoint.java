@@ -13,6 +13,7 @@ public class UnitTestEndPoint extends EndPointUtil {
 
     private final String endpoint1 = prop.getProperty("endpoint1");
     private final String endpoint2 = prop.getProperty("endpoint2");
+    private final String endpointSubscription = prop.getProperty("subscriptionEndpoint");
 
     @Test
     public void testGetEndPointOne() {
@@ -23,4 +24,6 @@ public class UnitTestEndPoint extends EndPointUtil {
     public void testGetEndPointTwo() {
         doGetRequest(endpoint2, "result2.json");
     }
+
 }
+

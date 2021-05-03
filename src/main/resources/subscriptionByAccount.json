@@ -1,0 +1,190 @@
+{
+  "subscriptions": [
+    {
+      "id": "M0000861097_2",
+      "brand": {
+        "id": "LIB",
+        "key": "net.dpgmedia.brand.libelle",
+        "name": "Libelle"
+      },
+      "productId": "LIBEL",
+      "startDate": "2016-12-30",
+      "endDate": "2021-05-03",
+      "formula": {
+        "id": "LIB_CD",
+        "description": "Libelle"
+      },
+      "homeAddress": {
+        "street": "Hobbemaplantsoen",
+        "houseNumber": "19",
+        "boxNumber": "",
+        "zipCode": "1701 KD",
+        "town": "HEERHUGOWAARD",
+        "countryCode": "NL",
+        "complementary": ""
+      },
+      "billingAddress": {
+        "street": "Hobbemaplantsoen",
+        "houseNumber": "19",
+        "boxNumber": "",
+        "zipCode": "1701 KD",
+        "town": "HEERHUGOWAARD",
+        "countryCode": "NL",
+        "complementary": ""
+      },
+      "distributions": 1,
+      "numberOfEditions": 1,
+      "paidBySomeoneElse": false,
+      "digital": false,
+      "subscriptionState": {
+        "value": "SUSPENDED",
+        "suspensionReason": "HOLIDAY",
+        "suspensionDate": null
+      },
+      "email": "",
+      "createdLocally": false,
+      "privacyData": {
+        "touchPoint": {},
+        "documentIds": []
+      },
+      "customer": {
+        "customerId": "0043613856",
+        "firstName": "M.",
+        "lastName": "Okhuijsen",
+        "sex": "UNKNOWN",
+        "address": {
+          "street": "Hobbemaplantsoen",
+          "houseNumber": "19",
+          "boxNumber": "",
+          "zipCode": "1701 KD",
+          "town": "HEERHUGOWAARD",
+          "countryCode": "NL",
+          "complementary": ""
+        }
+      },
+      "onlineAccessState": "HOLIDAY",
+      "idForDisplay": "0000861097"
+    },
+    {
+      "id": "M0000868504_2",
+      "brand": {
+        "id": "LIB",
+        "key": "net.dpgmedia.brand.libelle",
+        "name": "Libelle"
+      },
+      "productId": "LIBEL",
+      "startDate": "2016-12-30",
+      "formula": {
+        "id": "LIB_CD",
+        "description": "Libelle"
+      },
+      "homeAddress": {
+        "street": "Heschepad",
+        "houseNumber": "53",
+        "boxNumber": "",
+        "zipCode": "5341 GS",
+        "town": "OSS",
+        "countryCode": "NL",
+        "complementary": ""
+      },
+      "billingAddress": {
+        "street": "Heschepad",
+        "houseNumber": "53",
+        "boxNumber": "",
+        "zipCode": "5341 GS",
+        "town": "OSS",
+        "countryCode": "NL",
+        "complementary": ""
+      },
+      "distributions": 1,
+      "numberOfEditions": 1,
+      "paidBySomeoneElse": false,
+      "digital": false,
+      "subscriptionState": {
+        "value": "ACTIVE",
+        "suspensionDate": null
+      },
+      "email": "franvanmulbregt@hetnet.nl",
+      "createdLocally": false,
+      "privacyData": {
+        "touchPoint": {},
+        "documentIds": []
+      },
+      "customer": {
+        "customerId": "0041336309",
+        "firstName": "F.C.",
+        "lastName": "van Mulbregt-van der Mee",
+        "sex": "FEMALE",
+        "address": {
+          "street": "Heschepad",
+          "houseNumber": "53",
+          "boxNumber": "",
+          "zipCode": "5341 GS",
+          "town": "OSS",
+          "countryCode": "NL",
+          "complementary": ""
+        }
+      },
+      "onlineAccessState": "ACTIVE",
+      "idForDisplay": "0000868504"
+    },
+    {
+      "id": "A1020110442",
+      "brand": {
+        "id": "WPZ",
+        "key": "net.persgroep.brand.pzc",
+        "name": "PZC"
+      },
+      "productId": "wpz_digital_basic_trial",
+      "offerType": "Trial",
+      "startDate": "2020-09-15",
+      "endDate": "2020-10-14",
+      "formula": {
+        "id": "TRIAL_PZ_BASIS_DIGITAAL",
+        "description": "PZC Digital Basic Trial"
+      },
+      "homeAddress": {
+        "countryCode": "NL"
+      },
+      "billingAddress": {
+        "countryCode": "NL"
+      },
+      "distributions": 5,
+      "numberOfEditions": 0,
+      "paidBySomeoneElse": false,
+      "digital": true,
+      "subscriptionState": {
+        "value": "SUSPENDED",
+        "suspensionReason": "TERMINATED",
+        "suspensionDate": "2020-10-14",
+        "cancellationReason": {
+          "code": "DEACTIVATED",
+          "description": "Abonnementsperiode afgelopen",
+          "enabled": false,
+          "rule": "CANCEL_AT_DATE_REFUND_NONE"
+        }
+      },
+      "email": "dev.team.oplage.postman.1600167909@persgroep.net",
+      "createdLocally": false,
+      "privacyData": {
+        "touchPoint": {},
+        "documentIds": []
+      },
+      "customer": {
+        "customerId": "S1000098792",
+        "firstName": "Tinus",
+        "initials": "T.",
+        "middleName": "Johnny",
+        "lastName": "Tester",
+        "sex": "UNKNOWN",
+        "customerType": "PRIVATE",
+        "taxExempt": false,
+        "address": {
+          "countryCode": "NL"
+        }
+      },
+      "onlineAccessState": "TERMINATED",
+      "idForDisplay": "A1020110442"
+    }
+  ]
+}
